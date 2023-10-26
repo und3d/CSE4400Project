@@ -137,7 +137,7 @@ GameObject:
   - component: {fileID: 201488376}
   - component: {fileID: 201488378}
   - component: {fileID: 201488377}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: Player
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -462,6 +462,10 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 0}
     m_Modifications:
+    - target: {fileID: 3778180249236158398, guid: c746237c8d6989741b4a6d5166c9dc99, type: 3}
+      propertyPath: swapToScene
+      value: 
+      objectReference: {fileID: 3585539559073018404, guid: 3b84974edd632cd41aca4df56cd85133, type: 3}
     - target: {fileID: 4649460635773937288, guid: c746237c8d6989741b4a6d5166c9dc99, type: 3}
       propertyPath: m_LocalPosition.x
       value: -2.98
@@ -504,7 +508,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 6318619002101959861, guid: c746237c8d6989741b4a6d5166c9dc99, type: 3}
       propertyPath: m_Name
-      value: Building (2)
+      value: Dormitory
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
@@ -519,6 +523,10 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 0}
     m_Modifications:
+    - target: {fileID: 3778180249236158398, guid: c746237c8d6989741b4a6d5166c9dc99, type: 3}
+      propertyPath: swapToScene
+      value: 
+      objectReference: {fileID: 6048855268072416883, guid: 60d54671927aa0b48990e94b027e10a7, type: 3}
     - target: {fileID: 4649460635773937288, guid: c746237c8d6989741b4a6d5166c9dc99, type: 3}
       propertyPath: m_LocalPosition.x
       value: -0.87
@@ -561,7 +569,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 6318619002101959861, guid: c746237c8d6989741b4a6d5166c9dc99, type: 3}
       propertyPath: m_Name
-      value: Building (1)
+      value: Portal
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
@@ -621,6 +629,10 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 0}
     m_Modifications:
+    - target: {fileID: 3778180249236158398, guid: c746237c8d6989741b4a6d5166c9dc99, type: 3}
+      propertyPath: swapToScene
+      value: 
+      objectReference: {fileID: 102900000, guid: c2a7128a1b77187498efb0de8100b24f, type: 3}
     - target: {fileID: 4649460635773937288, guid: c746237c8d6989741b4a6d5166c9dc99, type: 3}
       propertyPath: m_LocalPosition.x
       value: 3.32
@@ -663,7 +675,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 6318619002101959861, guid: c746237c8d6989741b4a6d5166c9dc99, type: 3}
       propertyPath: m_Name
-      value: Building (4)
+      value: Stabilizer
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
@@ -678,6 +690,10 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 0}
     m_Modifications:
+    - target: {fileID: 3778180249236158398, guid: c746237c8d6989741b4a6d5166c9dc99, type: 3}
+      propertyPath: swapToScene
+      value: 
+      objectReference: {fileID: 8564310023635870364, guid: ce49e17951131bc43bedfadc39a6615b, type: 3}
     - target: {fileID: 4649460635773937288, guid: c746237c8d6989741b4a6d5166c9dc99, type: 3}
       propertyPath: m_LocalPosition.x
       value: 1.2
@@ -720,7 +736,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 6318619002101959861, guid: c746237c8d6989741b4a6d5166c9dc99, type: 3}
       propertyPath: m_Name
-      value: Building (3)
+      value: ResearchCenter
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
@@ -939,6 +955,22 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 0}
     m_Modifications:
+    - target: {fileID: 918172995289479338, guid: c746237c8d6989741b4a6d5166c9dc99, type: 3}
+      propertyPath: m_IsTrigger
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 918172995289479338, guid: c746237c8d6989741b4a6d5166c9dc99, type: 3}
+      propertyPath: m_IncludeLayers.m_Bits
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3188198617730432369, guid: c746237c8d6989741b4a6d5166c9dc99, type: 3}
+      propertyPath: m_Layer
+      value: 8
+      objectReference: {fileID: 0}
+    - target: {fileID: 3778180249236158398, guid: c746237c8d6989741b4a6d5166c9dc99, type: 3}
+      propertyPath: swapToScene
+      value: 
+      objectReference: {fileID: 7873489700223466825, guid: b0fdff49fc2110346add136b4d5f3dd6, type: 3}
     - target: {fileID: 4649460635773937288, guid: c746237c8d6989741b4a6d5166c9dc99, type: 3}
       propertyPath: m_LocalPosition.x
       value: -4.997
@@ -979,9 +1011,17 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 4989792192405559275, guid: c746237c8d6989741b4a6d5166c9dc99, type: 3}
+      propertyPath: m_Size.y
+      value: 0.7720853
+      objectReference: {fileID: 0}
+    - target: {fileID: 4989792192405559275, guid: c746237c8d6989741b4a6d5166c9dc99, type: 3}
+      propertyPath: m_Offset.y
+      value: 0.1139573
+      objectReference: {fileID: 0}
     - target: {fileID: 6318619002101959861, guid: c746237c8d6989741b4a6d5166c9dc99, type: 3}
       propertyPath: m_Name
-      value: Building
+      value: Shop
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
@@ -996,8 +1036,8 @@ SceneRoots:
   - {fileID: 201488373}
   - {fileID: 1305826896}
   - {fileID: 2563700956481823884}
+  - {fileID: 545526476}
   - {fileID: 860409499}
   - {fileID: 1326458954}
   - {fileID: 1310576544}
-  - {fileID: 545526476}
   - {fileID: 2073757650}
