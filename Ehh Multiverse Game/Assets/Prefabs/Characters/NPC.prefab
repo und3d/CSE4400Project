@@ -172,5 +172,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   moveSpeed: 0.5
-  minPauseTime: 1
-  maxPauseTime: 3
+  minPauseTime: 3
+  maxPauseTime: 6
+  minTimeToPause: 2
+  maxTimeToPause: 4
