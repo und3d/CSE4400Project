@@ -1,0 +1,24 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 73b48ce62f7b3a64597b297dc6512e43, type: 3}
+  m_Name: The Sword of Creation
+  m_EditorClassIdentifier: 
+  DisplayName: The Sword of Creation
+  Description: After having battled all sorts of monstrosities affected by the unknown
+    source of dimensional laws the shard you recieved has grown to its full power
+    once again.
+  Icon: {fileID: 946132551445127754, guid: d60bbc4d1432228489e35ced51bd1d2c, type: 3}
+  MaxStackSize: 1
+  EquipPrefab: {fileID: 7677867567039698927, guid: 27aafa4aa6c83d942a412dd3752622e2, type: 3}
+  Damage: 60
+  Range: 1.8
+  AttackRate: 0.4

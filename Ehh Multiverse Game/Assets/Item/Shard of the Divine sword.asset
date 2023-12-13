@@ -1,0 +1,23 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 73b48ce62f7b3a64597b297dc6512e43, type: 3}
+  m_Name: Shard of the Divine sword
+  m_EditorClassIdentifier: 
+  DisplayName: Damaged Shard of the Divine sword
+  Description: A fragment of the sword used by the Creator called Pioneer to cut
+    open the dimensial laws and created the world.
+  Icon: {fileID: -4029819251187114856, guid: d60bbc4d1432228489e35ced51bd1d2c, type: 3}
+  MaxStackSize: 1
+  EquipPrefab: {fileID: 257977666470769967, guid: a265c881b9157e544be94fd387d3a66a, type: 3}
+  Damage: 8
+  Range: 1.2
+  AttackRate: 0.4
