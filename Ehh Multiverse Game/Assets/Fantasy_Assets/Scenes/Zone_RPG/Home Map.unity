@@ -196,11 +196,6 @@ PrefabInstance:
     m_AddedGameObjects: []
     m_AddedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: f1e4ac9b73da2814a920fc8893a676cc, type: 3}
---- !u!1 &21567370 stripped
-GameObject:
-  m_CorrespondingSourceObject: {fileID: 3827153841366847172, guid: 70680dd76bc048e4bacb382cb4dba2d7, type: 3}
-  m_PrefabInstance: {fileID: 6638103744286058521}
-  m_PrefabAsset: {fileID: 0}
 --- !u!114 &74511966 stripped
 MonoBehaviour:
   m_CorrespondingSourceObject: {fileID: 3477554156167748393, guid: 82fd61b5ee0860849ad76c6ad60228db, type: 3}
@@ -212,133 +207,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 41d5e4f9d4958f84ea66464f4f03dd4e, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
---- !u!1001 &138270374
-PrefabInstance:
-  m_ObjectHideFlags: 0
-  serializedVersion: 2
-  m_Modification:
-    serializedVersion: 3
-    m_TransformParent: {fileID: 175288837750125315}
-    m_Modifications:
-    - target: {fileID: 2755433909691944367, guid: 70680dd76bc048e4bacb382cb4dba2d7, type: 3}
-      propertyPath: m_IsActive
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 3827153841366847172, guid: 70680dd76bc048e4bacb382cb4dba2d7, type: 3}
-      propertyPath: m_IsActive
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 3996283676926549123, guid: 70680dd76bc048e4bacb382cb4dba2d7, type: 3}
-      propertyPath: m_Pivot.x
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 3996283676926549123, guid: 70680dd76bc048e4bacb382cb4dba2d7, type: 3}
-      propertyPath: m_Pivot.y
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 3996283676926549123, guid: 70680dd76bc048e4bacb382cb4dba2d7, type: 3}
-      propertyPath: m_AnchorMax.x
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 3996283676926549123, guid: 70680dd76bc048e4bacb382cb4dba2d7, type: 3}
-      propertyPath: m_AnchorMax.y
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 3996283676926549123, guid: 70680dd76bc048e4bacb382cb4dba2d7, type: 3}
-      propertyPath: m_AnchorMin.x
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 3996283676926549123, guid: 70680dd76bc048e4bacb382cb4dba2d7, type: 3}
-      propertyPath: m_AnchorMin.y
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 3996283676926549123, guid: 70680dd76bc048e4bacb382cb4dba2d7, type: 3}
-      propertyPath: m_SizeDelta.x
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 3996283676926549123, guid: 70680dd76bc048e4bacb382cb4dba2d7, type: 3}
-      propertyPath: m_SizeDelta.y
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 3996283676926549123, guid: 70680dd76bc048e4bacb382cb4dba2d7, type: 3}
-      propertyPath: m_LocalPosition.x
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 3996283676926549123, guid: 70680dd76bc048e4bacb382cb4dba2d7, type: 3}
-      propertyPath: m_LocalPosition.y
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 3996283676926549123, guid: 70680dd76bc048e4bacb382cb4dba2d7, type: 3}
-      propertyPath: m_LocalPosition.z
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 3996283676926549123, guid: 70680dd76bc048e4bacb382cb4dba2d7, type: 3}
-      propertyPath: m_LocalRotation.w
-      value: 1
-      objectReference: {fileID: 0}
-    - target: {fileID: 3996283676926549123, guid: 70680dd76bc048e4bacb382cb4dba2d7, type: 3}
-      propertyPath: m_LocalRotation.x
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 3996283676926549123, guid: 70680dd76bc048e4bacb382cb4dba2d7, type: 3}
-      propertyPath: m_LocalRotation.y
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 3996283676926549123, guid: 70680dd76bc048e4bacb382cb4dba2d7, type: 3}
-      propertyPath: m_LocalRotation.z
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 3996283676926549123, guid: 70680dd76bc048e4bacb382cb4dba2d7, type: 3}
-      propertyPath: m_AnchoredPosition.x
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 3996283676926549123, guid: 70680dd76bc048e4bacb382cb4dba2d7, type: 3}
-      propertyPath: m_AnchoredPosition.y
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 3996283676926549123, guid: 70680dd76bc048e4bacb382cb4dba2d7, type: 3}
-      propertyPath: m_LocalEulerAnglesHint.x
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 3996283676926549123, guid: 70680dd76bc048e4bacb382cb4dba2d7, type: 3}
-      propertyPath: m_LocalEulerAnglesHint.y
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 3996283676926549123, guid: 70680dd76bc048e4bacb382cb4dba2d7, type: 3}
-      propertyPath: m_LocalEulerAnglesHint.z
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 5761729203742296810, guid: 70680dd76bc048e4bacb382cb4dba2d7, type: 3}
-      propertyPath: m_Name
-      value: DialogueCanvasPrincess
-      objectReference: {fileID: 0}
-    - target: {fileID: 6876371657351815596, guid: 70680dd76bc048e4bacb382cb4dba2d7, type: 3}
-      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.size
-      value: 1
-      objectReference: {fileID: 0}
-    - target: {fileID: 6876371657351815596, guid: 70680dd76bc048e4bacb382cb4dba2d7, type: 3}
-      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_Target
-      value: 
-      objectReference: {fileID: 390337896478501976}
-    - target: {fileID: 6876371657351815596, guid: 70680dd76bc048e4bacb382cb4dba2d7, type: 3}
-      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_MethodName
-      value: NextLine
-      objectReference: {fileID: 0}
-    m_RemovedComponents: []
-    m_RemovedGameObjects: []
-    m_AddedGameObjects: []
-    m_AddedComponents: []
-  m_SourcePrefab: {fileID: 100100000, guid: 70680dd76bc048e4bacb382cb4dba2d7, type: 3}
---- !u!1 &602406540 stripped
-GameObject:
-  m_CorrespondingSourceObject: {fileID: 2755433909691944367, guid: 70680dd76bc048e4bacb382cb4dba2d7, type: 3}
-  m_PrefabInstance: {fileID: 138270374}
-  m_PrefabAsset: {fileID: 0}
---- !u!224 &723174508 stripped
-RectTransform:
-  m_CorrespondingSourceObject: {fileID: 3996283676926549123, guid: 70680dd76bc048e4bacb382cb4dba2d7, type: 3}
-  m_PrefabInstance: {fileID: 138270374}
-  m_PrefabAsset: {fileID: 0}
 --- !u!1 &793801508
 GameObject:
   m_ObjectHideFlags: 0
@@ -423,27 +291,6 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
---- !u!1 &920499028 stripped
-GameObject:
-  m_CorrespondingSourceObject: {fileID: 2755433909691944367, guid: 70680dd76bc048e4bacb382cb4dba2d7, type: 3}
-  m_PrefabInstance: {fileID: 1998201264}
-  m_PrefabAsset: {fileID: 0}
---- !u!114 &932866303 stripped
-MonoBehaviour:
-  m_CorrespondingSourceObject: {fileID: 7716288081825670433, guid: 009e64711fbb26c4a8f7bb73882ec245, type: 3}
-  m_PrefabInstance: {fileID: 7967950165132864193}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 0}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 50ccd0f8c2fdb04478ff9cc4396156b9, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
---- !u!4 &932866306 stripped
-Transform:
-  m_CorrespondingSourceObject: {fileID: 7787217831365065338, guid: 009e64711fbb26c4a8f7bb73882ec245, type: 3}
-  m_PrefabInstance: {fileID: 7967950165132864193}
-  m_PrefabAsset: {fileID: 0}
 --- !u!1 &1049324231
 GameObject:
   m_ObjectHideFlags: 0
@@ -2992,11 +2839,6 @@ PrefabInstance:
     m_AddedGameObjects: []
     m_AddedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 62784052ad2c77e46aaa96cbf2dc6b61, type: 3}
---- !u!224 &1493183256 stripped
-RectTransform:
-  m_CorrespondingSourceObject: {fileID: 3996283676926549123, guid: 70680dd76bc048e4bacb382cb4dba2d7, type: 3}
-  m_PrefabInstance: {fileID: 1998201264}
-  m_PrefabAsset: {fileID: 0}
 --- !u!1 &1513239167
 GameObject:
   m_ObjectHideFlags: 0
@@ -3795,342 +3637,16 @@ Transform:
   m_CorrespondingSourceObject: {fileID: 5148565650603555524, guid: 13302c0861f4843459e0aa3e48e36437, type: 3}
   m_PrefabInstance: {fileID: 1514196486}
   m_PrefabAsset: {fileID: 0}
---- !u!114 &1579374758 stripped
-MonoBehaviour:
-  m_CorrespondingSourceObject: {fileID: 6670505959313504468, guid: 70680dd76bc048e4bacb382cb4dba2d7, type: 3}
-  m_PrefabInstance: {fileID: 138270374}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 0}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 5f7201a12d95ffc409449d95f23cf332, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
---- !u!114 &1684062653 stripped
-MonoBehaviour:
-  m_CorrespondingSourceObject: {fileID: 6670505959313504468, guid: 70680dd76bc048e4bacb382cb4dba2d7, type: 3}
-  m_PrefabInstance: {fileID: 6638103744286058521}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 0}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 5f7201a12d95ffc409449d95f23cf332, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
---- !u!114 &1851620610 stripped
-MonoBehaviour:
-  m_CorrespondingSourceObject: {fileID: 6670505959313504468, guid: 70680dd76bc048e4bacb382cb4dba2d7, type: 3}
-  m_PrefabInstance: {fileID: 1998201264}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 0}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 5f7201a12d95ffc409449d95f23cf332, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
---- !u!224 &1898156807 stripped
-RectTransform:
-  m_CorrespondingSourceObject: {fileID: 3996283676926549123, guid: 70680dd76bc048e4bacb382cb4dba2d7, type: 3}
-  m_PrefabInstance: {fileID: 6638103744286058521}
-  m_PrefabAsset: {fileID: 0}
 --- !u!4 &1899235419 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 797003953416953430, guid: 3d8424362336402428dd126386c3d992, type: 3}
   m_PrefabInstance: {fileID: 925906547138444605}
-  m_PrefabAsset: {fileID: 0}
---- !u!1 &1918037592 stripped
-GameObject:
-  m_CorrespondingSourceObject: {fileID: 3827153841366847172, guid: 70680dd76bc048e4bacb382cb4dba2d7, type: 3}
-  m_PrefabInstance: {fileID: 1998201264}
   m_PrefabAsset: {fileID: 0}
 --- !u!4 &1975251005 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 6352209950120636000, guid: 4980f89eeca13c2488008226f48d23ac, type: 3}
   m_PrefabInstance: {fileID: 5532286886450969675}
   m_PrefabAsset: {fileID: 0}
---- !u!1001 &1998201264
-PrefabInstance:
-  m_ObjectHideFlags: 0
-  serializedVersion: 2
-  m_Modification:
-    serializedVersion: 3
-    m_TransformParent: {fileID: 7728619820744797644}
-    m_Modifications:
-    - target: {fileID: 2755433909691944367, guid: 70680dd76bc048e4bacb382cb4dba2d7, type: 3}
-      propertyPath: m_IsActive
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 3827153841366847172, guid: 70680dd76bc048e4bacb382cb4dba2d7, type: 3}
-      propertyPath: m_IsActive
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 3996283676926549123, guid: 70680dd76bc048e4bacb382cb4dba2d7, type: 3}
-      propertyPath: m_Pivot.x
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 3996283676926549123, guid: 70680dd76bc048e4bacb382cb4dba2d7, type: 3}
-      propertyPath: m_Pivot.y
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 3996283676926549123, guid: 70680dd76bc048e4bacb382cb4dba2d7, type: 3}
-      propertyPath: m_AnchorMax.x
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 3996283676926549123, guid: 70680dd76bc048e4bacb382cb4dba2d7, type: 3}
-      propertyPath: m_AnchorMax.y
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 3996283676926549123, guid: 70680dd76bc048e4bacb382cb4dba2d7, type: 3}
-      propertyPath: m_AnchorMin.x
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 3996283676926549123, guid: 70680dd76bc048e4bacb382cb4dba2d7, type: 3}
-      propertyPath: m_AnchorMin.y
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 3996283676926549123, guid: 70680dd76bc048e4bacb382cb4dba2d7, type: 3}
-      propertyPath: m_SizeDelta.x
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 3996283676926549123, guid: 70680dd76bc048e4bacb382cb4dba2d7, type: 3}
-      propertyPath: m_SizeDelta.y
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 3996283676926549123, guid: 70680dd76bc048e4bacb382cb4dba2d7, type: 3}
-      propertyPath: m_LocalPosition.x
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 3996283676926549123, guid: 70680dd76bc048e4bacb382cb4dba2d7, type: 3}
-      propertyPath: m_LocalPosition.y
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 3996283676926549123, guid: 70680dd76bc048e4bacb382cb4dba2d7, type: 3}
-      propertyPath: m_LocalPosition.z
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 3996283676926549123, guid: 70680dd76bc048e4bacb382cb4dba2d7, type: 3}
-      propertyPath: m_LocalRotation.w
-      value: 1
-      objectReference: {fileID: 0}
-    - target: {fileID: 3996283676926549123, guid: 70680dd76bc048e4bacb382cb4dba2d7, type: 3}
-      propertyPath: m_LocalRotation.x
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 3996283676926549123, guid: 70680dd76bc048e4bacb382cb4dba2d7, type: 3}
-      propertyPath: m_LocalRotation.y
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 3996283676926549123, guid: 70680dd76bc048e4bacb382cb4dba2d7, type: 3}
-      propertyPath: m_LocalRotation.z
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 3996283676926549123, guid: 70680dd76bc048e4bacb382cb4dba2d7, type: 3}
-      propertyPath: m_AnchoredPosition.x
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 3996283676926549123, guid: 70680dd76bc048e4bacb382cb4dba2d7, type: 3}
-      propertyPath: m_AnchoredPosition.y
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 3996283676926549123, guid: 70680dd76bc048e4bacb382cb4dba2d7, type: 3}
-      propertyPath: m_LocalEulerAnglesHint.x
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 3996283676926549123, guid: 70680dd76bc048e4bacb382cb4dba2d7, type: 3}
-      propertyPath: m_LocalEulerAnglesHint.y
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 3996283676926549123, guid: 70680dd76bc048e4bacb382cb4dba2d7, type: 3}
-      propertyPath: m_LocalEulerAnglesHint.z
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 5761729203742296810, guid: 70680dd76bc048e4bacb382cb4dba2d7, type: 3}
-      propertyPath: m_Name
-      value: DialogueCanvasKing
-      objectReference: {fileID: 0}
-    - target: {fileID: 6876371657351815596, guid: 70680dd76bc048e4bacb382cb4dba2d7, type: 3}
-      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.size
-      value: 1
-      objectReference: {fileID: 0}
-    - target: {fileID: 6876371657351815596, guid: 70680dd76bc048e4bacb382cb4dba2d7, type: 3}
-      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_Target
-      value: 
-      objectReference: {fileID: 7801801067378766487}
-    - target: {fileID: 6876371657351815596, guid: 70680dd76bc048e4bacb382cb4dba2d7, type: 3}
-      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_MethodName
-      value: NextLine
-      objectReference: {fileID: 0}
-    m_RemovedComponents: []
-    m_RemovedGameObjects: []
-    m_AddedGameObjects: []
-    m_AddedComponents: []
-  m_SourcePrefab: {fileID: 100100000, guid: 70680dd76bc048e4bacb382cb4dba2d7, type: 3}
---- !u!1 &2022891943 stripped
-GameObject:
-  m_CorrespondingSourceObject: {fileID: 3827153841366847172, guid: 70680dd76bc048e4bacb382cb4dba2d7, type: 3}
-  m_PrefabInstance: {fileID: 138270374}
-  m_PrefabAsset: {fileID: 0}
---- !u!1 &2116474359 stripped
-GameObject:
-  m_CorrespondingSourceObject: {fileID: 2755433909691944367, guid: 70680dd76bc048e4bacb382cb4dba2d7, type: 3}
-  m_PrefabInstance: {fileID: 6638103744286058521}
-  m_PrefabAsset: {fileID: 0}
---- !u!4 &175288837750125315 stripped
-Transform:
-  m_CorrespondingSourceObject: {fileID: 4343750668379723665, guid: 89e0eaeef2b195d499e68923760a5833, type: 3}
-  m_PrefabInstance: {fileID: 5682626929835825295}
-  m_PrefabAsset: {fileID: 0}
---- !u!114 &390337896478501976 stripped
-MonoBehaviour:
-  m_CorrespondingSourceObject: {fileID: 3210953933250756898, guid: 89e0eaeef2b195d499e68923760a5833, type: 3}
-  m_PrefabInstance: {fileID: 5682626929835825295}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 0}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 50ccd0f8c2fdb04478ff9cc4396156b9, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
---- !u!1001 &640185972139095109
-PrefabInstance:
-  m_ObjectHideFlags: 0
-  serializedVersion: 2
-  m_Modification:
-    serializedVersion: 3
-    m_TransformParent: {fileID: 0}
-    m_Modifications:
-    - target: {fileID: 2625117136214857076, guid: 2972c296b20118849bab75b1f48dea94, type: 3}
-      propertyPath: m_SortingLayer
-      value: 3
-      objectReference: {fileID: 0}
-    - target: {fileID: 2625117136214857076, guid: 2972c296b20118849bab75b1f48dea94, type: 3}
-      propertyPath: m_SortingLayerID
-      value: 1325638331
-      objectReference: {fileID: 0}
-    - target: {fileID: 4286597428408396938, guid: 2972c296b20118849bab75b1f48dea94, type: 3}
-      propertyPath: wordSpeed
-      value: 0.05
-      objectReference: {fileID: 0}
-    - target: {fileID: 4286597428408396938, guid: 2972c296b20118849bab75b1f48dea94, type: 3}
-      propertyPath: contButton
-      value: 
-      objectReference: {fileID: 1918037592}
-    - target: {fileID: 4286597428408396938, guid: 2972c296b20118849bab75b1f48dea94, type: 3}
-      propertyPath: dialogueText
-      value: 
-      objectReference: {fileID: 1851620610}
-    - target: {fileID: 4286597428408396938, guid: 2972c296b20118849bab75b1f48dea94, type: 3}
-      propertyPath: dialoguePanel
-      value: 
-      objectReference: {fileID: 920499028}
-    - target: {fileID: 4286597428408396938, guid: 2972c296b20118849bab75b1f48dea94, type: 3}
-      propertyPath: dialogue.Array.size
-      value: 10
-      objectReference: {fileID: 0}
-    - target: {fileID: 4286597428408396938, guid: 2972c296b20118849bab75b1f48dea94, type: 3}
-      propertyPath: dialogue.Array.data[0]
-      value: Thank you for your service great HERO. If you have completed the two
-        portals before coming here then please await your final quest.
-      objectReference: {fileID: 0}
-    - target: {fileID: 4286597428408396938, guid: 2972c296b20118849bab75b1f48dea94, type: 3}
-      propertyPath: dialogue.Array.data[1]
-      value: Great, thank goodness that you are as strong as i head my daughter say.
-        I will now inform you of the last perilous journey.
-      objectReference: {fileID: 0}
-    - target: {fileID: 4286597428408396938, guid: 2972c296b20118849bab75b1f48dea94, type: 3}
-      propertyPath: dialogue.Array.data[2]
-      value: Unfortunaly, the Tree of Life ran out of power and could only seal the
-        Dark Elf King along with another seal map that you must continue to go through.
-      objectReference: {fileID: 0}
-    - target: {fileID: 4286597428408396938, guid: 2972c296b20118849bab75b1f48dea94, type: 3}
-      propertyPath: dialogue.Array.data[3]
-      value: 'The first area you must conquer is filled with living elemental beings:
-        Ice Golems and an Iron Golem.'
-      objectReference: {fileID: 0}
-    - target: {fileID: 4286597428408396938, guid: 2972c296b20118849bab75b1f48dea94, type: 3}
-      propertyPath: dialogue.Array.data[4]
-      value: Please be careful because only after you defeat them can your Sword
-        of Creation be restored to give you enough power to defeat the King.
-      objectReference: {fileID: 0}
-    - target: {fileID: 4286597428408396938, guid: 2972c296b20118849bab75b1f48dea94, type: 3}
-      propertyPath: dialogue.Array.data[5]
-      value: Once you reach the end of the map there should be a portal to take you
-        to his previous castle... or what is left of it.
-      objectReference: {fileID: 0}
-    - target: {fileID: 4286597428408396938, guid: 2972c296b20118849bab75b1f48dea94, type: 3}
-      propertyPath: dialogue.Array.data[6]
-      value: He is guarded by two of his strongest creations the Chimera. And he
-        is also very powerful with his increase in death power thankes to the mysterious
-        item.
-      objectReference: {fileID: 0}
-    - target: {fileID: 4286597428408396938, guid: 2972c296b20118849bab75b1f48dea94, type: 3}
-      propertyPath: dialogue.Array.data[7]
-      value: I wish you good luck as you will have 375 HP points and stronger potions
-        and 500 HP points if you reach the King.
-      objectReference: {fileID: 0}
-    - target: {fileID: 4286597428408396938, guid: 2972c296b20118849bab75b1f48dea94, type: 3}
-      propertyPath: dialogue.Array.data[8]
-      value: If you manage to defeat the King please remember to rush back through
-        the portal at the bottom to reach your own dimension because the seal maintaining
-        the portal will collapse.
-      objectReference: {fileID: 0}
-    - target: {fileID: 4286597428408396938, guid: 2972c296b20118849bab75b1f48dea94, type: 3}
-      propertyPath: dialogue.Array.data[9]
-      value: Thank the Goddess that we summoned you in time. I wish you great victory
-        HERO!!!!
-      objectReference: {fileID: 0}
-    - target: {fileID: 8050199921756726339, guid: 2972c296b20118849bab75b1f48dea94, type: 3}
-      propertyPath: m_LocalPosition.x
-      value: -5.12
-      objectReference: {fileID: 0}
-    - target: {fileID: 8050199921756726339, guid: 2972c296b20118849bab75b1f48dea94, type: 3}
-      propertyPath: m_LocalPosition.y
-      value: -1.65
-      objectReference: {fileID: 0}
-    - target: {fileID: 8050199921756726339, guid: 2972c296b20118849bab75b1f48dea94, type: 3}
-      propertyPath: m_LocalPosition.z
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 8050199921756726339, guid: 2972c296b20118849bab75b1f48dea94, type: 3}
-      propertyPath: m_LocalRotation.w
-      value: 1
-      objectReference: {fileID: 0}
-    - target: {fileID: 8050199921756726339, guid: 2972c296b20118849bab75b1f48dea94, type: 3}
-      propertyPath: m_LocalRotation.x
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 8050199921756726339, guid: 2972c296b20118849bab75b1f48dea94, type: 3}
-      propertyPath: m_LocalRotation.y
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 8050199921756726339, guid: 2972c296b20118849bab75b1f48dea94, type: 3}
-      propertyPath: m_LocalRotation.z
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 8050199921756726339, guid: 2972c296b20118849bab75b1f48dea94, type: 3}
-      propertyPath: m_LocalEulerAnglesHint.x
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 8050199921756726339, guid: 2972c296b20118849bab75b1f48dea94, type: 3}
-      propertyPath: m_LocalEulerAnglesHint.y
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 8050199921756726339, guid: 2972c296b20118849bab75b1f48dea94, type: 3}
-      propertyPath: m_LocalEulerAnglesHint.z
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 8557003237162242706, guid: 2972c296b20118849bab75b1f48dea94, type: 3}
-      propertyPath: m_Name
-      value: KingKarwenz
-      objectReference: {fileID: 0}
-    m_RemovedComponents: []
-    m_RemovedGameObjects: []
-    m_AddedGameObjects:
-    - targetCorrespondingSourceObject: {fileID: 8050199921756726339, guid: 2972c296b20118849bab75b1f48dea94, type: 3}
-      insertIndex: -1
-      addedObject: {fileID: 1493183256}
-    m_AddedComponents: []
-  m_SourcePrefab: {fileID: 100100000, guid: 2972c296b20118849bab75b1f48dea94, type: 3}
 --- !u!1001 &925906547138444605
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -4249,6 +3765,63 @@ PrefabInstance:
     m_AddedGameObjects: []
     m_AddedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: d9c4ef7e8f88d054aa5ef7bb355cf0b6, type: 3}
+--- !u!1001 &1580675487256725262
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    serializedVersion: 3
+    m_TransformParent: {fileID: 0}
+    m_Modifications:
+    - target: {fileID: 2433315543510487781, guid: c8ae6a1ae8164e64580ed81df798a6a9, type: 3}
+      propertyPath: m_Name
+      value: KingKarwenz
+      objectReference: {fileID: 0}
+    - target: {fileID: 6744689946821815759, guid: c8ae6a1ae8164e64580ed81df798a6a9, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: -5.12
+      objectReference: {fileID: 0}
+    - target: {fileID: 6744689946821815759, guid: c8ae6a1ae8164e64580ed81df798a6a9, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: -1.65
+      objectReference: {fileID: 0}
+    - target: {fileID: 6744689946821815759, guid: c8ae6a1ae8164e64580ed81df798a6a9, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6744689946821815759, guid: c8ae6a1ae8164e64580ed81df798a6a9, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 6744689946821815759, guid: c8ae6a1ae8164e64580ed81df798a6a9, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6744689946821815759, guid: c8ae6a1ae8164e64580ed81df798a6a9, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6744689946821815759, guid: c8ae6a1ae8164e64580ed81df798a6a9, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6744689946821815759, guid: c8ae6a1ae8164e64580ed81df798a6a9, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6744689946821815759, guid: c8ae6a1ae8164e64580ed81df798a6a9, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6744689946821815759, guid: c8ae6a1ae8164e64580ed81df798a6a9, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+    m_RemovedGameObjects: []
+    m_AddedGameObjects: []
+    m_AddedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: c8ae6a1ae8164e64580ed81df798a6a9, type: 3}
 --- !u!1001 &3080593260722830267
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -4310,6 +3883,63 @@ PrefabInstance:
     m_AddedGameObjects: []
     m_AddedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: b4af4890d2af9d14ea959701c473e7c5, type: 3}
+--- !u!1001 &3570334473615306333
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    serializedVersion: 3
+    m_TransformParent: {fileID: 0}
+    m_Modifications:
+    - target: {fileID: 6924157022021406585, guid: 4377ce7204663284da1fd812bc9d26cc, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: -1.781
+      objectReference: {fileID: 0}
+    - target: {fileID: 6924157022021406585, guid: 4377ce7204663284da1fd812bc9d26cc, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: -0.51
+      objectReference: {fileID: 0}
+    - target: {fileID: 6924157022021406585, guid: 4377ce7204663284da1fd812bc9d26cc, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6924157022021406585, guid: 4377ce7204663284da1fd812bc9d26cc, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 6924157022021406585, guid: 4377ce7204663284da1fd812bc9d26cc, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6924157022021406585, guid: 4377ce7204663284da1fd812bc9d26cc, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6924157022021406585, guid: 4377ce7204663284da1fd812bc9d26cc, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6924157022021406585, guid: 4377ce7204663284da1fd812bc9d26cc, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6924157022021406585, guid: 4377ce7204663284da1fd812bc9d26cc, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6924157022021406585, guid: 4377ce7204663284da1fd812bc9d26cc, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7787529131654851592, guid: 4377ce7204663284da1fd812bc9d26cc, type: 3}
+      propertyPath: m_Name
+      value: QueenAstrya
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+    m_RemovedGameObjects: []
+    m_AddedGameObjects: []
+    m_AddedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: 4377ce7204663284da1fd812bc9d26cc, type: 3}
 --- !u!4 &4457652195487763328 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 1326060994596166002, guid: 1626e41b808e04a43a1a2d9a96f1a7bd, type: 3}
@@ -4329,11 +3959,11 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 4511834079919495879, guid: 4980f89eeca13c2488008226f48d23ac, type: 3}
       propertyPath: m_AnchoredPosition.x
-      value: 0.036
+      value: 0.028
       objectReference: {fileID: 0}
     - target: {fileID: 4511834079919495879, guid: 4980f89eeca13c2488008226f48d23ac, type: 3}
       propertyPath: m_AnchoredPosition.y
-      value: 0.391
+      value: 0.529
       objectReference: {fileID: 0}
     - target: {fileID: 6352209950120636000, guid: 4980f89eeca13c2488008226f48d23ac, type: 3}
       propertyPath: m_LocalPosition.x
@@ -4405,142 +4035,6 @@ AudioSource:
   m_CorrespondingSourceObject: {fileID: -7330906402135351512, guid: 4980f89eeca13c2488008226f48d23ac, type: 3}
   m_PrefabInstance: {fileID: 5532286886450969675}
   m_PrefabAsset: {fileID: 0}
---- !u!1001 &5682626929835825295
-PrefabInstance:
-  m_ObjectHideFlags: 0
-  serializedVersion: 2
-  m_Modification:
-    serializedVersion: 3
-    m_TransformParent: {fileID: 0}
-    m_Modifications:
-    - target: {fileID: 1713207979387020184, guid: 89e0eaeef2b195d499e68923760a5833, type: 3}
-      propertyPath: m_SortingLayer
-      value: 3
-      objectReference: {fileID: 0}
-    - target: {fileID: 1713207979387020184, guid: 89e0eaeef2b195d499e68923760a5833, type: 3}
-      propertyPath: m_SortingLayerID
-      value: 1325638331
-      objectReference: {fileID: 0}
-    - target: {fileID: 2418222529711123421, guid: 89e0eaeef2b195d499e68923760a5833, type: 3}
-      propertyPath: m_Name
-      value: PrincessAmelia
-      objectReference: {fileID: 0}
-    - target: {fileID: 3210953933250756898, guid: 89e0eaeef2b195d499e68923760a5833, type: 3}
-      propertyPath: wordSpeed
-      value: 0.05
-      objectReference: {fileID: 0}
-    - target: {fileID: 3210953933250756898, guid: 89e0eaeef2b195d499e68923760a5833, type: 3}
-      propertyPath: contButton
-      value: 
-      objectReference: {fileID: 2022891943}
-    - target: {fileID: 3210953933250756898, guid: 89e0eaeef2b195d499e68923760a5833, type: 3}
-      propertyPath: dialogueText
-      value: 
-      objectReference: {fileID: 1579374758}
-    - target: {fileID: 3210953933250756898, guid: 89e0eaeef2b195d499e68923760a5833, type: 3}
-      propertyPath: dialoguePanel
-      value: 
-      objectReference: {fileID: 602406540}
-    - target: {fileID: 3210953933250756898, guid: 89e0eaeef2b195d499e68923760a5833, type: 3}
-      propertyPath: dialogue.Array.size
-      value: 8
-      objectReference: {fileID: 0}
-    - target: {fileID: 3210953933250756898, guid: 89e0eaeef2b195d499e68923760a5833, type: 3}
-      propertyPath: dialogue.Array.data[0]
-      value: Have you completed the leftmost portal? If not, you are not ready yet
-        for further challenges.
-      objectReference: {fileID: 0}
-    - target: {fileID: 3210953933250756898, guid: 89e0eaeef2b195d499e68923760a5833, type: 3}
-      propertyPath: dialogue.Array.data[1]
-      value: You've completed the quest!!! My goodness you are as strong as we hoped
-        you to be.
-      objectReference: {fileID: 0}
-    - target: {fileID: 3210953933250756898, guid: 89e0eaeef2b195d499e68923760a5833, type: 3}
-      propertyPath: dialogue.Array.data[2]
-      value: I am Princess Amelia of the Golden Elves, although there are very few
-        left, we are possibly the only intelligence species alive.
-      objectReference: {fileID: 0}
-    - target: {fileID: 3210953933250756898, guid: 89e0eaeef2b195d499e68923760a5833, type: 3}
-      propertyPath: dialogue.Array.data[3]
-      value: I remember the great Golden Capital that was renowned from eons, unlike
-        this horrible rubble left.
-      objectReference: {fileID: 0}
-    - target: {fileID: 3210953933250756898, guid: 89e0eaeef2b195d499e68923760a5833, type: 3}
-      propertyPath: dialogue.Array.data[4]
-      value: I hope you continue to be successful on this conquest. Thank you HERO!!
-      objectReference: {fileID: 0}
-    - target: {fileID: 3210953933250756898, guid: 89e0eaeef2b195d499e68923760a5833, type: 3}
-      propertyPath: dialogue.Array.data[5]
-      value: This portal contains the once beautiful Treants and Treant Lord that
-        once swore loyalty to the Golden Elves. Unfortunately, they were corrupted
-        by the power of death.
-      objectReference: {fileID: 0}
-    - target: {fileID: 3210953933250756898, guid: 89e0eaeef2b195d499e68923760a5833, type: 3}
-      propertyPath: dialogue.Array.data[6]
-      value: You will attain 240 HP points and stronger poitions from the monsters
-        of death if you attempt this quest.
-      objectReference: {fileID: 0}
-    - target: {fileID: 3210953933250756898, guid: 89e0eaeef2b195d499e68923760a5833, type: 3}
-      propertyPath: dialogue.Array.data[7]
-      value: I will now unlock the middle portal to continue your quest. I wish you
-        a great victory!
-      objectReference: {fileID: 0}
-    - target: {fileID: 4343750668379723665, guid: 89e0eaeef2b195d499e68923760a5833, type: 3}
-      propertyPath: m_LocalPosition.x
-      value: 6.63
-      objectReference: {fileID: 0}
-    - target: {fileID: 4343750668379723665, guid: 89e0eaeef2b195d499e68923760a5833, type: 3}
-      propertyPath: m_LocalPosition.y
-      value: 0.41
-      objectReference: {fileID: 0}
-    - target: {fileID: 4343750668379723665, guid: 89e0eaeef2b195d499e68923760a5833, type: 3}
-      propertyPath: m_LocalPosition.z
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 4343750668379723665, guid: 89e0eaeef2b195d499e68923760a5833, type: 3}
-      propertyPath: m_LocalRotation.w
-      value: 1
-      objectReference: {fileID: 0}
-    - target: {fileID: 4343750668379723665, guid: 89e0eaeef2b195d499e68923760a5833, type: 3}
-      propertyPath: m_LocalRotation.x
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 4343750668379723665, guid: 89e0eaeef2b195d499e68923760a5833, type: 3}
-      propertyPath: m_LocalRotation.y
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 4343750668379723665, guid: 89e0eaeef2b195d499e68923760a5833, type: 3}
-      propertyPath: m_LocalRotation.z
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 4343750668379723665, guid: 89e0eaeef2b195d499e68923760a5833, type: 3}
-      propertyPath: m_LocalEulerAnglesHint.x
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 4343750668379723665, guid: 89e0eaeef2b195d499e68923760a5833, type: 3}
-      propertyPath: m_LocalEulerAnglesHint.y
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 4343750668379723665, guid: 89e0eaeef2b195d499e68923760a5833, type: 3}
-      propertyPath: m_LocalEulerAnglesHint.z
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 8367977401985992982, guid: 89e0eaeef2b195d499e68923760a5833, type: 3}
-      propertyPath: m_Size.x
-      value: 1.1843436
-      objectReference: {fileID: 0}
-    - target: {fileID: 8367977401985992982, guid: 89e0eaeef2b195d499e68923760a5833, type: 3}
-      propertyPath: m_Offset.x
-      value: 0.18070138
-      objectReference: {fileID: 0}
-    m_RemovedComponents: []
-    m_RemovedGameObjects: []
-    m_AddedGameObjects:
-    - targetCorrespondingSourceObject: {fileID: 4343750668379723665, guid: 89e0eaeef2b195d499e68923760a5833, type: 3}
-      insertIndex: -1
-      addedObject: {fileID: 723174508}
-    m_AddedComponents: []
-  m_SourcePrefab: {fileID: 100100000, guid: 89e0eaeef2b195d499e68923760a5833, type: 3}
 --- !u!1001 &5876881146694597009
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -4663,148 +4157,7 @@ PrefabInstance:
     m_AddedGameObjects: []
     m_AddedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: ed16e120c6120464da16d285e0cdc38c, type: 3}
---- !u!1001 &6638103744286058521
-PrefabInstance:
-  m_ObjectHideFlags: 0
-  serializedVersion: 2
-  m_Modification:
-    serializedVersion: 3
-    m_TransformParent: {fileID: 932866306}
-    m_Modifications:
-    - target: {fileID: 2755433909691944367, guid: 70680dd76bc048e4bacb382cb4dba2d7, type: 3}
-      propertyPath: m_IsActive
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 3827153841366847172, guid: 70680dd76bc048e4bacb382cb4dba2d7, type: 3}
-      propertyPath: m_IsActive
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 3996283676926549123, guid: 70680dd76bc048e4bacb382cb4dba2d7, type: 3}
-      propertyPath: m_Pivot.x
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 3996283676926549123, guid: 70680dd76bc048e4bacb382cb4dba2d7, type: 3}
-      propertyPath: m_Pivot.y
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 3996283676926549123, guid: 70680dd76bc048e4bacb382cb4dba2d7, type: 3}
-      propertyPath: m_AnchorMax.x
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 3996283676926549123, guid: 70680dd76bc048e4bacb382cb4dba2d7, type: 3}
-      propertyPath: m_AnchorMax.y
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 3996283676926549123, guid: 70680dd76bc048e4bacb382cb4dba2d7, type: 3}
-      propertyPath: m_AnchorMin.x
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 3996283676926549123, guid: 70680dd76bc048e4bacb382cb4dba2d7, type: 3}
-      propertyPath: m_AnchorMin.y
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 3996283676926549123, guid: 70680dd76bc048e4bacb382cb4dba2d7, type: 3}
-      propertyPath: m_SizeDelta.x
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 3996283676926549123, guid: 70680dd76bc048e4bacb382cb4dba2d7, type: 3}
-      propertyPath: m_SizeDelta.y
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 3996283676926549123, guid: 70680dd76bc048e4bacb382cb4dba2d7, type: 3}
-      propertyPath: m_LocalPosition.x
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 3996283676926549123, guid: 70680dd76bc048e4bacb382cb4dba2d7, type: 3}
-      propertyPath: m_LocalPosition.y
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 3996283676926549123, guid: 70680dd76bc048e4bacb382cb4dba2d7, type: 3}
-      propertyPath: m_LocalPosition.z
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 3996283676926549123, guid: 70680dd76bc048e4bacb382cb4dba2d7, type: 3}
-      propertyPath: m_LocalRotation.w
-      value: 1
-      objectReference: {fileID: 0}
-    - target: {fileID: 3996283676926549123, guid: 70680dd76bc048e4bacb382cb4dba2d7, type: 3}
-      propertyPath: m_LocalRotation.x
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 3996283676926549123, guid: 70680dd76bc048e4bacb382cb4dba2d7, type: 3}
-      propertyPath: m_LocalRotation.y
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 3996283676926549123, guid: 70680dd76bc048e4bacb382cb4dba2d7, type: 3}
-      propertyPath: m_LocalRotation.z
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 3996283676926549123, guid: 70680dd76bc048e4bacb382cb4dba2d7, type: 3}
-      propertyPath: m_AnchoredPosition.x
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 3996283676926549123, guid: 70680dd76bc048e4bacb382cb4dba2d7, type: 3}
-      propertyPath: m_AnchoredPosition.y
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 3996283676926549123, guid: 70680dd76bc048e4bacb382cb4dba2d7, type: 3}
-      propertyPath: m_LocalEulerAnglesHint.x
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 3996283676926549123, guid: 70680dd76bc048e4bacb382cb4dba2d7, type: 3}
-      propertyPath: m_LocalEulerAnglesHint.y
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 3996283676926549123, guid: 70680dd76bc048e4bacb382cb4dba2d7, type: 3}
-      propertyPath: m_LocalEulerAnglesHint.z
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 5761729203742296810, guid: 70680dd76bc048e4bacb382cb4dba2d7, type: 3}
-      propertyPath: m_Name
-      value: DialogueCanvasQueen
-      objectReference: {fileID: 0}
-    - target: {fileID: 6876371657351815596, guid: 70680dd76bc048e4bacb382cb4dba2d7, type: 3}
-      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.size
-      value: 1
-      objectReference: {fileID: 0}
-    - target: {fileID: 6876371657351815596, guid: 70680dd76bc048e4bacb382cb4dba2d7, type: 3}
-      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_Target
-      value: 
-      objectReference: {fileID: 932866303}
-    - target: {fileID: 6876371657351815596, guid: 70680dd76bc048e4bacb382cb4dba2d7, type: 3}
-      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[1].m_Target
-      value: 
-      objectReference: {fileID: 390337896478501976}
-    - target: {fileID: 6876371657351815596, guid: 70680dd76bc048e4bacb382cb4dba2d7, type: 3}
-      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[2].m_Target
-      value: 
-      objectReference: {fileID: 390337896478501976}
-    - target: {fileID: 6876371657351815596, guid: 70680dd76bc048e4bacb382cb4dba2d7, type: 3}
-      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_MethodName
-      value: NextLine
-      objectReference: {fileID: 0}
-    m_RemovedComponents: []
-    m_RemovedGameObjects: []
-    m_AddedGameObjects: []
-    m_AddedComponents: []
-  m_SourcePrefab: {fileID: 100100000, guid: 70680dd76bc048e4bacb382cb4dba2d7, type: 3}
---- !u!4 &7728619820744797644 stripped
-Transform:
-  m_CorrespondingSourceObject: {fileID: 8050199921756726339, guid: 2972c296b20118849bab75b1f48dea94, type: 3}
-  m_PrefabInstance: {fileID: 640185972139095109}
-  m_PrefabAsset: {fileID: 0}
---- !u!114 &7801801067378766487 stripped
-MonoBehaviour:
-  m_CorrespondingSourceObject: {fileID: 4286597428408396938, guid: 2972c296b20118849bab75b1f48dea94, type: 3}
-  m_PrefabInstance: {fileID: 640185972139095109}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 0}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 50ccd0f8c2fdb04478ff9cc4396156b9, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
---- !u!1001 &7967950165132864193
+--- !u!1001 &7548662389289364261
 PrefabInstance:
   m_ObjectHideFlags: 0
   serializedVersion: 2
@@ -4812,207 +4165,55 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 0}
     m_Modifications:
-    - target: {fileID: 910739070061322358, guid: 009e64711fbb26c4a8f7bb73882ec245, type: 3}
-      propertyPath: m_SortingLayer
-      value: 3
-      objectReference: {fileID: 0}
-    - target: {fileID: 910739070061322358, guid: 009e64711fbb26c4a8f7bb73882ec245, type: 3}
-      propertyPath: m_SortingLayerID
-      value: 1325638331
-      objectReference: {fileID: 0}
-    - target: {fileID: 5480111956426875608, guid: 009e64711fbb26c4a8f7bb73882ec245, type: 3}
-      propertyPath: m_Name
-      value: QueenAstrya
-      objectReference: {fileID: 0}
-    - target: {fileID: 7716288081825670433, guid: 009e64711fbb26c4a8f7bb73882ec245, type: 3}
-      propertyPath: wordSpeed
-      value: 0.05
-      objectReference: {fileID: 0}
-    - target: {fileID: 7716288081825670433, guid: 009e64711fbb26c4a8f7bb73882ec245, type: 3}
-      propertyPath: contButton
-      value: 
-      objectReference: {fileID: 21567370}
-    - target: {fileID: 7716288081825670433, guid: 009e64711fbb26c4a8f7bb73882ec245, type: 3}
-      propertyPath: dialogueText
-      value: 
-      objectReference: {fileID: 1684062653}
-    - target: {fileID: 7716288081825670433, guid: 009e64711fbb26c4a8f7bb73882ec245, type: 3}
-      propertyPath: dialoguePanel
-      value: 
-      objectReference: {fileID: 2116474359}
-    - target: {fileID: 7716288081825670433, guid: 009e64711fbb26c4a8f7bb73882ec245, type: 3}
-      propertyPath: dialogue.Array.size
-      value: 22
-      objectReference: {fileID: 0}
-    - target: {fileID: 7716288081825670433, guid: 009e64711fbb26c4a8f7bb73882ec245, type: 3}
-      propertyPath: dialogue.Array.data[0]
-      value: Thank the Goddess that you the HERO have been successfully summoned!
-        My name is Astrya the Queen of the Golden Elves.
-      objectReference: {fileID: 0}
-    - target: {fileID: 7716288081825670433, guid: 009e64711fbb26c4a8f7bb73882ec245, type: 3}
-      propertyPath: dialogue.Array.data[1]
-      value: This dimension named Reincarnation was created by the Creator Pioneer
-        eons ago, but now it has almost been destroyed!!!
-      objectReference: {fileID: 0}
-    - target: {fileID: 7716288081825670433, guid: 009e64711fbb26c4a8f7bb73882ec245, type: 3}
-      propertyPath: dialogue.Array.data[2]
-      value: When this realm was first created Pioneer gave birth to two Innate Gods
-        from the aftermath of his creation. They were named the Goddess of Life and
-        the God of Death.
-      objectReference: {fileID: 0}
-    - target: {fileID: 7716288081825670433, guid: 009e64711fbb26c4a8f7bb73882ec245, type: 3}
-      propertyPath: dialogue.Array.data[3]
-      value: When Pioneer left, the Goddess of Life, Elisa and the God of Death,
-        Roland, in their lonliness created various races throughout the world.
-      objectReference: {fileID: 0}
-    - target: {fileID: 7716288081825670433, guid: 009e64711fbb26c4a8f7bb73882ec245, type: 3}
-      propertyPath: dialogue.Array.data[4]
-      value: Their favorite races were the Golden Elves of Life and the Dark Elves
-        of Death. A prosperous world worthy of the Creator was formed.
-      objectReference: {fileID: 0}
-    - target: {fileID: 7716288081825670433, guid: 009e64711fbb26c4a8f7bb73882ec245, type: 3}
-      propertyPath: dialogue.Array.data[5]
-      value: One day, for some reason unknown in history, the Goddess of Life and
-        the God of Death argued to the point of starting a war. Along with them were
-        their respective creations.
-      objectReference: {fileID: 0}
-    - target: {fileID: 7716288081825670433, guid: 009e64711fbb26c4a8f7bb73882ec245, type: 3}
-      propertyPath: dialogue.Array.data[6]
-      value: It is unknown how the battle of Gods is, since it has continued for
-        millions of years. But our world has mostly been destroyed with only the
-        two favorite races left.
-      objectReference: {fileID: 0}
-    - target: {fileID: 7716288081825670433, guid: 009e64711fbb26c4a8f7bb73882ec245, type: 3}
-      propertyPath: dialogue.Array.data[7]
-      value: Until recently, the genius Dark Elf King explored a meteorite that hit
-        the land and suddenly went crazy from a mysterious item.
-      objectReference: {fileID: 0}
-    - target: {fileID: 7716288081825670433, guid: 009e64711fbb26c4a8f7bb73882ec245, type: 3}
-      propertyPath: dialogue.Array.data[8]
-      value: He infected various corpses of humanoids, plants, animals, and even
-        the elements raising all sorts of abominations. He also used this item to
-        seal all magic and long-range weaponry.
-      objectReference: {fileID: 0}
-    - target: {fileID: 7716288081825670433, guid: 009e64711fbb26c4a8f7bb73882ec245, type: 3}
-      propertyPath: dialogue.Array.data[9]
-      value: He crazily attacked attempting to rid the world of all life including
-        his species. We only have this ruins of the capital left with only the remaining
-        few population hiding in a secret location.
-      objectReference: {fileID: 0}
-    - target: {fileID: 7716288081825670433, guid: 009e64711fbb26c4a8f7bb73882ec245, type: 3}
-      propertyPath: dialogue.Array.data[10]
-      value: Me, King Karwenz, and Princess Amelia used an ancient weapon left by
-        the Goddess of Life at the expense of the Tree of Life to seal him and his
-        creations in various areas of the world.
-      objectReference: {fileID: 0}
-    - target: {fileID: 7716288081825670433, guid: 009e64711fbb26c4a8f7bb73882ec245, type: 3}
-      propertyPath: dialogue.Array.data[11]
-      value: Unfortunately none of us have any remaining strength to completely destroy
-        the forces of death, therefore we have summoned a dimensional traveler as
-        a HERO to complete the mission.
-      objectReference: {fileID: 0}
-    - target: {fileID: 7716288081825670433, guid: 009e64711fbb26c4a8f7bb73882ec245, type: 3}
-      propertyPath: dialogue.Array.data[12]
-      value: I have unlocked the leftmost portal to begin your conquest. Luckily
-        due to the forces of death and the seal they are very sluggish and only move
-        when you are close to them.
-      objectReference: {fileID: 0}
-    - target: {fileID: 7716288081825670433, guid: 009e64711fbb26c4a8f7bb73882ec245, type: 3}
-      propertyPath: dialogue.Array.data[13]
-      value: Unfortunetly, also because of the forces of death and the seal they
-        are now half-corporeal and can go through obstacles the obstruct you.
-      objectReference: {fileID: 0}
-    - target: {fileID: 7716288081825670433, guid: 009e64711fbb26c4a8f7bb73882ec245, type: 3}
-      propertyPath: dialogue.Array.data[14]
-      value: By going through the portal you will be given the Shard weapon that
-        will require you to kill all the remaining monsters to return to its glory.
-      objectReference: {fileID: 0}
-    - target: {fileID: 7716288081825670433, guid: 009e64711fbb26c4a8f7bb73882ec245, type: 3}
-      propertyPath: dialogue.Array.data[15]
-      value: 'Due to the forces of life of the Tree of Life from the seal these monsters
-        will also turn into various life potions to sustain your journey, You will
-        also be given 2 potions of the 4 types that each of the sealed maps created. '
-      objectReference: {fileID: 0}
-    - target: {fileID: 7716288081825670433, guid: 009e64711fbb26c4a8f7bb73882ec245, type: 3}
-      propertyPath: dialogue.Array.data[16]
-      value: Every strongest monster will carry stronger weapons that will be able
-        to travel to the next sealed area. Be careful as death in the death seal
-        will cause great consequences.
-      objectReference: {fileID: 0}
-    - target: {fileID: 7716288081825670433, guid: 009e64711fbb26c4a8f7bb73882ec245, type: 3}
-      propertyPath: dialogue.Array.data[17]
-      value: Unfortunately due to the mysterious item increasing the power of death
-        all monsters will regenerate if you leave the seal. You must complete the
-        quest all at once so you do not need to return to the seal.
-      objectReference: {fileID: 0}
-    - target: {fileID: 7716288081825670433, guid: 009e64711fbb26c4a8f7bb73882ec245, type: 3}
-      propertyPath: dialogue.Array.data[18]
-      value: The leftmost portal is where the Skeletons and Skeleton Lord are being
-        held.
-      objectReference: {fileID: 0}
-    - target: {fileID: 7716288081825670433, guid: 009e64711fbb26c4a8f7bb73882ec245, type: 3}
-      propertyPath: dialogue.Array.data[19]
-      value: Please help us HERO! As a reward you can take away that mysterious item
-        that fell from the sky causing this great tragedy.
-      objectReference: {fileID: 0}
-    - target: {fileID: 7716288081825670433, guid: 009e64711fbb26c4a8f7bb73882ec245, type: 3}
-      propertyPath: dialogue.Array.data[20]
-      value: After you complete the leftmost portal please speak to my daughter,
-        Princess Amelia, to open the middle portal next.
-      objectReference: {fileID: 0}
-    - target: {fileID: 7716288081825670433, guid: 009e64711fbb26c4a8f7bb73882ec245, type: 3}
-      propertyPath: dialogue.Array.data[21]
-      value: You will be given 120 HP from the portal. I wish you great victory in
-        battle!!! Thank you HERO!
-      objectReference: {fileID: 0}
-    - target: {fileID: 7787217831365065338, guid: 009e64711fbb26c4a8f7bb73882ec245, type: 3}
+    - target: {fileID: 1074222786536234389, guid: feb5e74df77ad6f4bbb36850a271a0f9, type: 3}
       propertyPath: m_LocalPosition.x
-      value: -1.781
+      value: 6.63
       objectReference: {fileID: 0}
-    - target: {fileID: 7787217831365065338, guid: 009e64711fbb26c4a8f7bb73882ec245, type: 3}
+    - target: {fileID: 1074222786536234389, guid: feb5e74df77ad6f4bbb36850a271a0f9, type: 3}
       propertyPath: m_LocalPosition.y
-      value: -0.51
+      value: 0.41
       objectReference: {fileID: 0}
-    - target: {fileID: 7787217831365065338, guid: 009e64711fbb26c4a8f7bb73882ec245, type: 3}
+    - target: {fileID: 1074222786536234389, guid: feb5e74df77ad6f4bbb36850a271a0f9, type: 3}
       propertyPath: m_LocalPosition.z
       value: 0
       objectReference: {fileID: 0}
-    - target: {fileID: 7787217831365065338, guid: 009e64711fbb26c4a8f7bb73882ec245, type: 3}
+    - target: {fileID: 1074222786536234389, guid: feb5e74df77ad6f4bbb36850a271a0f9, type: 3}
       propertyPath: m_LocalRotation.w
       value: 1
       objectReference: {fileID: 0}
-    - target: {fileID: 7787217831365065338, guid: 009e64711fbb26c4a8f7bb73882ec245, type: 3}
+    - target: {fileID: 1074222786536234389, guid: feb5e74df77ad6f4bbb36850a271a0f9, type: 3}
       propertyPath: m_LocalRotation.x
       value: 0
       objectReference: {fileID: 0}
-    - target: {fileID: 7787217831365065338, guid: 009e64711fbb26c4a8f7bb73882ec245, type: 3}
+    - target: {fileID: 1074222786536234389, guid: feb5e74df77ad6f4bbb36850a271a0f9, type: 3}
       propertyPath: m_LocalRotation.y
       value: 0
       objectReference: {fileID: 0}
-    - target: {fileID: 7787217831365065338, guid: 009e64711fbb26c4a8f7bb73882ec245, type: 3}
+    - target: {fileID: 1074222786536234389, guid: feb5e74df77ad6f4bbb36850a271a0f9, type: 3}
       propertyPath: m_LocalRotation.z
       value: 0
       objectReference: {fileID: 0}
-    - target: {fileID: 7787217831365065338, guid: 009e64711fbb26c4a8f7bb73882ec245, type: 3}
+    - target: {fileID: 1074222786536234389, guid: feb5e74df77ad6f4bbb36850a271a0f9, type: 3}
       propertyPath: m_LocalEulerAnglesHint.x
       value: 0
       objectReference: {fileID: 0}
-    - target: {fileID: 7787217831365065338, guid: 009e64711fbb26c4a8f7bb73882ec245, type: 3}
+    - target: {fileID: 1074222786536234389, guid: feb5e74df77ad6f4bbb36850a271a0f9, type: 3}
       propertyPath: m_LocalEulerAnglesHint.y
       value: 0
       objectReference: {fileID: 0}
-    - target: {fileID: 7787217831365065338, guid: 009e64711fbb26c4a8f7bb73882ec245, type: 3}
+    - target: {fileID: 1074222786536234389, guid: feb5e74df77ad6f4bbb36850a271a0f9, type: 3}
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 6204769066451789014, guid: feb5e74df77ad6f4bbb36850a271a0f9, type: 3}
+      propertyPath: m_Name
+      value: PrinceAdam
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
-    m_AddedGameObjects:
-    - targetCorrespondingSourceObject: {fileID: 7787217831365065338, guid: 009e64711fbb26c4a8f7bb73882ec245, type: 3}
-      insertIndex: -1
-      addedObject: {fileID: 1898156807}
+    m_AddedGameObjects: []
     m_AddedComponents: []
-  m_SourcePrefab: {fileID: 100100000, guid: 009e64711fbb26c4a8f7bb73882ec245, type: 3}
+  m_SourcePrefab: {fileID: 100100000, guid: feb5e74df77ad6f4bbb36850a271a0f9, type: 3}
 --- !u!1001 &8606001025561450877
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -5092,9 +4293,9 @@ SceneRoots:
   - {fileID: 5532286886450969675}
   - {fileID: 3088543}
   - {fileID: 1222693787}
-  - {fileID: 7967950165132864193}
-  - {fileID: 640185972139095109}
-  - {fileID: 5682626929835825295}
+  - {fileID: 3570334473615306333}
+  - {fileID: 1580675487256725262}
+  - {fileID: 7548662389289364261}
   - {fileID: 6493096280614875442}
   - {fileID: 5876881146694597009}
   - {fileID: 3080593260722830267}
