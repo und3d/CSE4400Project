@@ -216,7 +216,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 103629be7256b04438e6293796899345, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  moveSpeed: 2
+  moveSpeed: 3.75
   rig: {fileID: 4134281176349431030}
   spriteRenderer: {fileID: 8383006090371346193}
   mouseUtilities: {fileID: 1542936429013575998}
@@ -369,11 +369,11 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   DisplayName: Player
-  CurHP: 100
-  MaxHP: 100
+  CurHP: 500
+  MaxHP: 500
   team: 0
   audioSource: {fileID: -7330906402135351512}
-  hitSFX: {fileID: 8300000, guid: 822201f4b5943184fa60157f19e93089, type: 3}
+  hitSFX: {fileID: 8300000, guid: bca3b75b48468b24985f3b15bf77853a, type: 3}
   EquipCtrl: {fileID: 8329615817734672719}
 --- !u!82 &-7330906402135351512
 AudioSource:
@@ -557,6 +557,14 @@ PrefabInstance:
       propertyPath: m_Name
       value: HealthBarCanvas
       objectReference: {fileID: 0}
+    - target: {fileID: 898713029556741703, guid: cafdcdebfa3815b478ecf85c45fd1900, type: 3}
+      propertyPath: m_text
+      value: Player
+      objectReference: {fileID: 0}
+    - target: {fileID: 898713029556741703, guid: cafdcdebfa3815b478ecf85c45fd1900, type: 3}
+      propertyPath: m_fontSize
+      value: 18
+      objectReference: {fileID: 0}
     - target: {fileID: 1348063503803107478, guid: cafdcdebfa3815b478ecf85c45fd1900, type: 3}
       propertyPath: m_Pivot.x
       value: 0.5
@@ -619,11 +627,11 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 1348063503803107478, guid: cafdcdebfa3815b478ecf85c45fd1900, type: 3}
       propertyPath: m_AnchoredPosition.x
-      value: -0.027
+      value: -0.024
       objectReference: {fileID: 0}
     - target: {fileID: 1348063503803107478, guid: cafdcdebfa3815b478ecf85c45fd1900, type: 3}
       propertyPath: m_AnchoredPosition.y
-      value: 0.361
+      value: 0.517
       objectReference: {fileID: 0}
     - target: {fileID: 1348063503803107478, guid: cafdcdebfa3815b478ecf85c45fd1900, type: 3}
       propertyPath: m_LocalEulerAnglesHint.x

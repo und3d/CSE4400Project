@@ -12,7 +12,7 @@ GameObject:
   - component: {fileID: 8285082711820893933}
   - component: {fileID: 4366590903600766647}
   - component: {fileID: 1079070980931424627}
-  m_Layer: 5
+  m_Layer: 16
   m_Name: HealthBarCanvas
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -26,7 +26,7 @@ RectTransform:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 19855305320843852}
-  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
   m_LocalPosition: {x: 0, y: 0, z: 0}
   m_LocalScale: {x: 0.01, y: 0.01, z: 0.01}
   m_ConstrainProportionsScale: 0
@@ -75,7 +75,7 @@ Canvas:
   m_VertexColorAlwaysGammaSpace: 0
   m_AdditionalShaderChannelsFlag: 25
   m_UpdateRectTransformForStandalone: 0
-  m_SortingLayerID: -1418512143
+  m_SortingLayerID: 1579452457
   m_SortingOrder: 0
   m_TargetDisplay: 0
 --- !u!114 &1079070980931424627
@@ -112,7 +112,7 @@ GameObject:
   - component: {fileID: 5654208175522302824}
   - component: {fileID: 8059799810293366235}
   - component: {fileID: 9047468706241434248}
-  m_Layer: 5
+  m_Layer: 16
   m_Name: HealthBarFill
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -187,7 +187,7 @@ GameObject:
   - component: {fileID: 8672497640275114869}
   - component: {fileID: 1501136106119986323}
   - component: {fileID: 7137031628515791412}
-  m_Layer: 5
+  m_Layer: 16
   m_Name: HealthBarBG
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -263,7 +263,7 @@ GameObject:
   - component: {fileID: 949116273168263911}
   - component: {fileID: 5228938005166706533}
   - component: {fileID: 898713029556741703}
-  m_Layer: 5
+  m_Layer: 16
   m_Name: CharacterNameText
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -317,7 +317,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: Player
+  m_text: Treant Lord
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
   m_sharedMaterial: {fileID: 2180264, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
@@ -344,7 +344,7 @@ MonoBehaviour:
   m_faceColor:
     serializedVersion: 2
     rgba: 4294967295
-  m_fontSize: 18
+  m_fontSize: 17.05
   m_fontSizeBase: 18
   m_fontWeight: 400
   m_enableAutoSizing: 1
