@@ -5,27 +5,6 @@ EditorBuildSettings:
   m_ObjectHideFlags: 0
   serializedVersion: 2
   m_Scenes:
-  - enabled: 0
-    path: Assets/Scenes/Zone_Dungeon/Zone_Dungeon.unity
-    guid: c2a153e2b75e29c4b87b9da8e904d9e4
-  - enabled: 0
-    path: Assets/Scenes/Zone_0.unity
-    guid: 2cda990e2423bbf4892e6590ba056729
-  - enabled: 0
-    path: Assets/Scenes/Zone_0_Scenes/StabilizerScene.unity
-    guid: 0f61334f982c49340be866692a34473a
-  - enabled: 0
-    path: Assets/Scenes/Zone_0_Scenes/DormitoryScene.unity
-    guid: 3266fe1003b449944b6599740b3e8fbe
-  - enabled: 0
-    path: Assets/Scenes/Zone_0_Scenes/PortalScene.unity
-    guid: 6a1765234624f4d4aa5004edd5706d76
-  - enabled: 0
-    path: Assets/Scenes/Zone_0_Scenes/ResearchCenterScene.unity
-    guid: 158c9dc4f4b3fa046984a42e1e87f85d
-  - enabled: 0
-    path: Assets/Scenes/Zone_0_Scenes/ShopScene.unity
-    guid: 3d03166e5d365ba49868f9f524218eb5
   - enabled: 1
     path: Assets/Scenes/Zone_RPG/Home Map.unity
     guid: b1ed4495a622db145b751e8a8fd185aa

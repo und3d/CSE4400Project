@@ -19,6 +19,6 @@ MonoBehaviour:
   Icon: {fileID: -2505125261248690692, guid: d60bbc4d1432228489e35ced51bd1d2c, type: 3}
   MaxStackSize: 1
   EquipPrefab: {fileID: 5229835144947815045, guid: d6a8a4e64b9a34d4ba8d7272dc873ccf, type: 3}
-  Damage: 18
+  Damage: 24
   Range: 1.2
   AttackRate: 0.4
