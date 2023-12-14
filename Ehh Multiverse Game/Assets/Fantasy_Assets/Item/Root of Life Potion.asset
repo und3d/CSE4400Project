@@ -19,4 +19,4 @@ MonoBehaviour:
   Icon: {fileID: 8840016672301374354, guid: 5268bfe5a63f2b545bf945f4db7f010c, type: 3}
   MaxStackSize: 2
   EquipPrefab: {fileID: 0}
-  HealthToGive: 45
+  HealthToGive: 55
