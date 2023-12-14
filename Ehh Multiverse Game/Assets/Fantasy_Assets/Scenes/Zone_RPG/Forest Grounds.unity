@@ -3410,6 +3410,10 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 1644540575372306338, guid: 83436c673a7180944be7caacc6138fa2, type: 3}
+      propertyPath: sceneBuildname
+      value: Home Map
+      objectReference: {fileID: 0}
     - target: {fileID: 7293841831174107550, guid: 83436c673a7180944be7caacc6138fa2, type: 3}
       propertyPath: m_Name
       value: ToHomeMap
