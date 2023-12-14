@@ -104,8 +104,8 @@ Transform:
   m_GameObject: {fileID: 6752451162650727215}
   serializedVersion: 2
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 0, y: 0, z: 0}
-  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_LocalPosition: {x: -0.014, y: -0.143, z: 0}
+  m_LocalScale: {x: 2.5466387, y: 2.5466387, z: 2.5466387}
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 6352209950120636000}
@@ -151,7 +151,7 @@ SpriteRenderer:
   m_SortingLayerID: 1265328635
   m_SortingLayer: 5
   m_SortingOrder: 0
-  m_Sprite: {fileID: 1107030503, guid: 5f34658d82987a94d94e53b4d63bea08, type: 3}
+  m_Sprite: {fileID: -1200557345, guid: ba90bd615ea41724aba8d389ede0c8f2, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
   m_FlipY: 0
@@ -279,8 +279,8 @@ CapsuleCollider2D:
   m_IsTrigger: 0
   m_UsedByEffector: 0
   m_UsedByComposite: 0
-  m_Offset: {x: 0, y: -0.20506305}
-  m_Size: {x: 0.5, y: 0.5898739}
+  m_Offset: {x: -0.017488405, y: -0.13948154}
+  m_Size: {x: 0.3775812, y: 0.8434557}
   m_Direction: 0
 --- !u!114 &1542936429013575998
 MonoBehaviour:
@@ -495,6 +495,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Footsteps
       objectReference: {fileID: 0}
+    - target: {fileID: 2920582950076149177, guid: 429401d3d34e9d84ea39ad0e79106a49, type: 3}
+      propertyPath: m_IsActive
+      value: 1
+      objectReference: {fileID: 0}
     - target: {fileID: 9082106430452659450, guid: 429401d3d34e9d84ea39ad0e79106a49, type: 3}
       propertyPath: m_LocalPosition.x
       value: 0.015
@@ -556,6 +560,10 @@ PrefabInstance:
     - target: {fileID: 19855305320843852, guid: cafdcdebfa3815b478ecf85c45fd1900, type: 3}
       propertyPath: m_Name
       value: HealthBarCanvas
+      objectReference: {fileID: 0}
+    - target: {fileID: 19855305320843852, guid: cafdcdebfa3815b478ecf85c45fd1900, type: 3}
+      propertyPath: m_IsActive
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 898713029556741703, guid: cafdcdebfa3815b478ecf85c45fd1900, type: 3}
       propertyPath: m_text
@@ -645,10 +653,22 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 7231362491767464483, guid: cafdcdebfa3815b478ecf85c45fd1900, type: 3}
+      propertyPath: m_IsActive
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 7978912593041247087, guid: cafdcdebfa3815b478ecf85c45fd1900, type: 3}
+      propertyPath: m_IsActive
+      value: 1
+      objectReference: {fileID: 0}
     - target: {fileID: 8285082711820893933, guid: cafdcdebfa3815b478ecf85c45fd1900, type: 3}
       propertyPath: character
       value: 
       objectReference: {fileID: 6593832694107224433}
+    - target: {fileID: 8957550179286451125, guid: cafdcdebfa3815b478ecf85c45fd1900, type: 3}
+      propertyPath: m_IsActive
+      value: 1
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
