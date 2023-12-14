@@ -46,6 +46,7 @@ public class GameManager : MonoBehaviour
         }
         else
         {
+            PersistentController.Instance.GetComponent<AudioSource>().Stop();
             SceneManager.LoadScene("Zone_0");
         }
     }

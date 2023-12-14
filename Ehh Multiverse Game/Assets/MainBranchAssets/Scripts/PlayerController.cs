@@ -109,6 +109,7 @@ public class PlayerController : MonoBehaviour
         {
             UnityEngine.SceneManagement.SceneManager.LoadScene("MainMenu");
             PersistentController.Instance.GlobalLives = 3;
+            PersistentController.Instance.GetComponent<AudioSource>().Stop();
         }
     }
 }

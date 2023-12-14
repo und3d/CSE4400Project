@@ -12,6 +12,9 @@ public class PersistentController : MonoBehaviour
     public int RPGLives = 3;
     public int DungeonLives = 3;
 
+    public AudioClip DungeonMusic;
+    public AudioClip BombermanMusic;
+
     private void Awake()
     {
         if (Instance == null)
