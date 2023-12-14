@@ -115,21 +115,29 @@ public class PlayerController : MonoBehaviour
 
     void AllLivesLost()
     {
-        UnityEngine.SceneManagement.SceneManager.LoadScene("Zone_0");
-        if (PersistentController.Instance.GlobalLives > 1)
+        if (PersistentController.Instance.DungeonLives > 1)
         {
-            PersistentController.Instance.GetComponent<AudioSource>().Stop();
-            PersistentController.Instance.GetComponent<AudioSource>().clip = PersistentController.Instance.Zone0Music;
-            PersistentController.Instance.GetComponent<AudioSource>().Play();
-            PersistentController.Instance.GlobalLives -= 1;
+            UnityEngine.SceneManagement.SceneManager.LoadScene("Dungeon_0");
+            PersistentController.Instance.DungeonLives -= 1;
         }
         else
         {
-            UnityEngine.SceneManagement.SceneManager.LoadScene("MainMenu");
-            PersistentController.Instance.GlobalLives = 3;
-            PersistentController.Instance.GetComponent<AudioSource>().Stop();
-            PersistentController.Instance.GetComponent<AudioSource>().clip = PersistentController.Instance.MenuMusic;
-            PersistentController.Instance.GetComponent<AudioSource>().Play();
+            UnityEngine.SceneManagement.SceneManager.LoadScene("Zone_0");
+            if (PersistentController.Instance.GlobalLives > 1)
+            {
+                PersistentController.Instance.GetComponent<AudioSource>().Stop();
+                PersistentController.Instance.GetComponent<AudioSource>().clip = PersistentController.Instance.Zone0Music;
+                PersistentController.Instance.GetComponent<AudioSource>().Play();
+                PersistentController.Instance.GlobalLives -= 1;
+            }
+            else
+            {
+                UnityEngine.SceneManagement.SceneManager.LoadScene("MainMenu");
+                PersistentController.Instance.GlobalLives = 3;
+                PersistentController.Instance.GetComponent<AudioSource>().Stop();
+                PersistentController.Instance.GetComponent<AudioSource>().clip = PersistentController.Instance.MenuMusic;
+                PersistentController.Instance.GetComponent<AudioSource>().Play();
+            }
         }
     }
 }
