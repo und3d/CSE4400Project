@@ -38,7 +38,7 @@ public class GameManager : MonoBehaviour
         if (alivePlayers == 1 && aliveAI == 0)
         {
             // Player wins
-            Invoke(nameof(NewRound), 3f);
+            SceneManager.LoadScene("Zone_0");
         }
         else if (alivePlayers == 0 && aliveAI > 0)
         {
@@ -50,7 +50,7 @@ public class GameManager : MonoBehaviour
 
     private void NewRound()
     {
-        SceneManager.LoadScene(SceneManager.GetActiveScene().buildIndex);
+        SceneManager.LoadScene("Bomberman");
     }
 
 }
