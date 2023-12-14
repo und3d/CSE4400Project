@@ -6,18 +6,18 @@ EditorBuildSettings:
   serializedVersion: 2
   m_Scenes:
   - enabled: 1
-    path: Assets/Scenes/Zone_RPG/Home Map.unity
+    path: Assets/Fantasy_Assets/Scenes/Zone_RPG/Home Map.unity
     guid: b1ed4495a622db145b751e8a8fd185aa
   - enabled: 1
-    path: Assets/Scenes/Zone_RPG/Undead Plains.unity
+    path: Assets/Fantasy_Assets/Scenes/Zone_RPG/Undead Plains.unity
     guid: 3ced6e02442a4fb48b0c41333460f22b
   - enabled: 1
-    path: Assets/Scenes/Zone_RPG/Forest Grounds.unity
+    path: Assets/Fantasy_Assets/Scenes/Zone_RPG/Forest Grounds.unity
     guid: b6047e55c1102f34691c47def2cab92f
   - enabled: 1
-    path: Assets/Scenes/Zone_RPG/Beach of Peril.unity
+    path: Assets/Fantasy_Assets/Scenes/Zone_RPG/Beach of Peril.unity
     guid: a6c608d61e4f80c49a031f8ce6a75e8f
   - enabled: 1
-    path: Assets/Scenes/Zone_RPG/Boss Map.unity
+    path: Assets/Fantasy_Assets/Scenes/Zone_RPG/Boss Map.unity
     guid: cd74ee64ae86d0a4ab6d00a77b06dcc1
   m_configObjects: {}
