@@ -1251,7 +1251,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: ecea1be5b3a2ecf479b2e5dc86dbb844, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  swapToScene: 
+  swapToScene: Home Map
 --- !u!1 &1119924363
 GameObject:
   m_ObjectHideFlags: 0
@@ -1600,7 +1600,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: ecea1be5b3a2ecf479b2e5dc86dbb844, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  swapToScene: 
+  swapToScene: Bomberman
 --- !u!1 &1937161131
 GameObject:
   m_ObjectHideFlags: 0

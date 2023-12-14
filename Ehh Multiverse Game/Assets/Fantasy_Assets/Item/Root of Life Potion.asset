@@ -1,0 +1,22 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 4e74651688ec39947b16b1dd38dbc3dc, type: 3}
+  m_Name: Root of Life Potion
+  m_EditorClassIdentifier: 
+  DisplayName: Root of Life Potion
+  Description: The crushed up roots of the dying Tree of Life signifies the maddness
+    the golden elves will go for victory. Take them with heavy hearts as you march
+    to battle.
+  Icon: {fileID: 8840016672301374354, guid: 5268bfe5a63f2b545bf945f4db7f010c, type: 3}
+  MaxStackSize: 2
+  EquipPrefab: {fileID: 0}
+  HealthToGive: 40

@@ -1,0 +1,21 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 3cb39125d1e0d1f4bbbf6493e80aa973, type: 3}
+  m_Name: Dimensional Shard
+  m_EditorClassIdentifier: 
+  DisplayName: Dimensional Law Shard
+  Description: The goal for coming to this plane full of Gods and elves has finally
+    been obtained. Better run away as fast as you can before they all start fighting
+    you for it.
+  Icon: {fileID: 21300000, guid: accac6586678e24429e75a7a485a2801, type: 3}
+  MaxStackSize: 1
+  EquipPrefab: {fileID: 0}

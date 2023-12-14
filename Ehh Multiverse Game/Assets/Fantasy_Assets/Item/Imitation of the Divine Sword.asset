@@ -1,0 +1,24 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 73b48ce62f7b3a64597b297dc6512e43, type: 3}
+  m_Name: Imitation of the Divine Sword
+  m_EditorClassIdentifier: 
+  DisplayName: Imitation of the Divine Sword
+  Description: Due to the deep veneration of the Creator Pioneer, even by his twin
+    children, countless people have tried to imitate his sword. This one is one of
+    the strongest.
+  Icon: {fileID: -2505125261248690692, guid: d60bbc4d1432228489e35ced51bd1d2c, type: 3}
+  MaxStackSize: 1
+  EquipPrefab: {fileID: 5229835144947815045, guid: d6a8a4e64b9a34d4ba8d7272dc873ccf, type: 3}
+  Damage: 18
+  Range: 1.2
+  AttackRate: 0.4

@@ -1,0 +1,21 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 4e74651688ec39947b16b1dd38dbc3dc, type: 3}
+  m_Name: Essence of Nature
+  m_EditorClassIdentifier: 
+  DisplayName: Essence of Nature
+  Description: Due to the increasing Death power of the Dark Elven King, all natural
+    forces are retreating causing the overflowing of natural aura in some areas.
+  Icon: {fileID: 731806605160617493, guid: 5268bfe5a63f2b545bf945f4db7f010c, type: 3}
+  MaxStackSize: 2
+  EquipPrefab: {fileID: 0}
+  HealthToGive: 30

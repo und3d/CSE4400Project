@@ -6,6 +6,9 @@ TagManager:
   tags:
   - Enemy
   - Canvas
+  - Bomb
+  - Wall
+  - AI
   layers:
   - Default
   - TransparentFX
@@ -18,13 +21,13 @@ TagManager:
   - Player
   - NPC
   - SceneSwaps
-  - 
-  - 
-  - 
-  - 
-  - 
-  - 
-  - 
+  - Stage
+  - Bomb
+  - Explosion
+  - Item
+  - Wall
+  - Enemy
+  - Damagable
   - 
   - 
   - 
@@ -42,4 +45,22 @@ TagManager:
   m_SortingLayers:
   - name: Default
     uniqueID: 0
+    locked: 0
+  - name: BG
+    uniqueID: 706722779
+    locked: 0
+  - name: Object
+    uniqueID: 3683652273
+    locked: 0
+  - name: NPC
+    uniqueID: 1325638331
+    locked: 0
+  - name: Enemy
+    uniqueID: 743019543
+    locked: 0
+  - name: Player
+    uniqueID: 1265328635
+    locked: 0
+  - name: UI
+    uniqueID: 1579452457
     locked: 0
