@@ -7,18 +7,37 @@ using UnityEngine.InputSystem;
 //Takes and handles input movement for the player character
 public class PlayerController : MonoBehaviour
 {
-    public float moveSpeed = 1f;
+    public float moveSpeed = 700f;
     public ContactFilter2D movementFilter;
     public float collisionOffset = 0.05f;
-    public SwordAttack swordAttack;
+    public float moveDrag = 15f;
+    public float stopDrag = 25f;
+    public GameObject swordHitbox;
 
-    Vector2 movementInput;
+    Vector2 moveInput;
     SpriteRenderer spriteRenderer;
     Rigidbody2D rb;
     Animator animator;
-    List<RaycastHit2D> castCollisions = new List<RaycastHit2D>();
-    bool leftWasLast = false;
     bool canMove = true;
+    bool isMoving = false;
+
+    public bool IsMoving
+    {
+        set
+        {
+            isMoving = value;
+            animator.SetBool("isMoving", value);
+
+            if (isMoving)
+            {
+                rb.drag = moveDrag;
+            }
+            else
+            {
+                rb.drag = stopDrag;
+            }
+        }
+    }
 
     // Start is called before the first frame update
     void Start()
@@ -31,175 +50,47 @@ public class PlayerController : MonoBehaviour
     // Update is called once per frame
     void FixedUpdate()
     {
-        if (canMove)
+        if (canMove == true && moveInput != Vector2.zero)
         {
-            //if movement input is not 0, try to move
-            if (movementInput != Vector2.zero)
-            {
-                bool success = TryMove(movementInput);
+            // Move animation and add velocity
 
-                if (!success)    //If a collision is detected and movement input is still detected, allows movement along collision
-                {
-                    success = TryMove(new Vector2(movementInput.x, 0));
-                }
-                if (!success)
-                {
-                    success = TryMove(new Vector2(0, movementInput.y));
-                }
+            // Accelerate the player while run direction is pressed (limited by rigidbody linear drag)
 
-                animator.SetBool("IsMoving", success);
-            }
-            else
-            {
-                spriteRenderer.flipX = false;
-                animator.SetBool("IsMoving", false);
-                animator.SetBool("movingRight", false);
-                animator.SetBool("movingLeft", false);
-                animator.SetBool("movingUp", false);
-                animator.SetBool("movingDown", false);
-            }
+            rb.AddForce(moveInput * moveSpeed * Time.fixedDeltaTime, ForceMode2D.Force);
 
-            #region Animation Directions
-            //Set direction of sprite to movement direction
-            /*
-            if (movementInput.x > 0 && movementInput.y > 0)     //Up Right
+            // Control whether looking left or right
+            if(moveInput.x > 0)
             {
                 spriteRenderer.flipX = false;
-                leftWasLast = false;
-                animator.SetBool("movingRight", true);
-                animator.SetBool("movingLeft", false);
-                animator.SetBool("movingUp", false);
-                animator.SetBool("movingDown", false);
+                gameObject.BroadcastMessage("IsFacingRight", true);
             }
-            else if (movementInput.x < 0 && movementInput.y > 0)     //Up Left
-            {
-                spriteRenderer.flipX = false;
-                leftWasLast = true;
-                animator.SetBool("movingRight", false);
-                animator.SetBool("movingLeft", false);
-                animator.SetBool("movingUp", true);
-                animator.SetBool("movingDown", false);
-            }
-            else if (movementInput.x > 0 && movementInput.y < 0)     //Down Right
-            {
-                spriteRenderer.flipX = false;
-                leftWasLast = false;
-                animator.SetBool("movingRight", false);
-                animator.SetBool("movingLeft", false);
-                animator.SetBool("movingUp", false);
-                animator.SetBool("movingDown", true);
-            }
-            else if (movementInput.x < 0 && movementInput.y < 0)     //Down Left
-            {
-                spriteRenderer.flipX = false;
-                leftWasLast = true;
-                animator.SetBool("movingRight", false);
-                animator.SetBool("movingLeft", false);
-                animator.SetBool("movingUp", false);
-                animator.SetBool("movingDown", true);
-            }
-            else if (movementInput.y > 0)                   //Up
-            {
-                spriteRenderer.flipX = false;
-                leftWasLast = false;
-                animator.SetBool("movingRight", false);
-                animator.SetBool("movingLeft", false);
-                animator.SetBool("movingUp", true);
-                animator.SetBool("movingDown", false);
-            }
-            else if (movementInput.y < 0)                   //Down
-            {
-                spriteRenderer.flipX = false;
-                leftWasLast = false;
-                animator.SetBool("movingRight", false);
-                animator.SetBool("movingLeft", false);
-                animator.SetBool("movingUp", false);
-                animator.SetBool("movingDown", true);
-            }
-            */
-            if (movementInput.x < 0)                    //Left
+            else if (moveInput.x < 0)
             {
                 spriteRenderer.flipX = true;
-                leftWasLast = true;
-                animator.SetBool("movingRight", false);
-                animator.SetBool("movingLeft", true);
-                animator.SetBool("movingUp", false);
-                animator.SetBool("movingDown", false);
-            }
-            else if (movementInput.x > 0)                   //Right
-            {
-                spriteRenderer.flipX = false;
-                leftWasLast = false;
-                animator.SetBool("movingRight", true);
-                animator.SetBool("movingLeft", false);
-                animator.SetBool("movingUp", false);
-                animator.SetBool("movingDown", false);
+                gameObject.BroadcastMessage("IsFacingRight", false);
             }
 
-            #endregion
-
-            if (leftWasLast)
-            {
-                spriteRenderer.flipX = true;
-            }
-        }
-    }
-
-    private bool TryMove(Vector2 direction)
-    {
-        if (direction != Vector2.zero)
-        {
-            //Check for potential collisions
-            int count = rb.Cast(
-                direction,      // X and Y values between -1 and 1 that represent the direction from the body to look for collisions
-                movementFilter,     // The settings that determine where a collision can occur on such as layeers to collide with
-                castCollisions,     // List of collisions to store the found collisions into after the cast is finished
-                moveSpeed * Time.fixedDeltaTime + collisionOffset);     //The amount to cast equal to the movement plus an offset
-
-            if (count == 0)
-            {
-                rb.MovePosition(rb.position + direction * moveSpeed * Time.fixedDeltaTime);
-                return true;
-            }
-            else
-            {
-                return false;
-            }
+            IsMoving = true;
         }
         else
         {
-            return false;
+            IsMoving = false;
         }
     }
 
-    private void OnMove(InputValue movementValue)
+    private void OnMove(InputValue value)
     {
-        canMove = true;
-        movementInput = movementValue.Get<Vector2>();
+        moveInput = value.Get<Vector2>();
     }
 
     void OnFire()
     {
         animator.SetTrigger("swordAttack");
+    }
+
+    void LockMovement()
+    {
         canMove = false;
-    }
-
-    public void SwordAttack()
-    {
-        if (spriteRenderer.flipX)
-        {
-            swordAttack.AttackLeft();
-        }
-        else
-        {
-            swordAttack.AttackRight();
-        }
-    }
-
-    public void EndSwordAttack()
-    {
-        UnlockMovement();
-        swordAttack.StopAttack();
     }
 
     void UnlockMovement()
