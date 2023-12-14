@@ -40,6 +40,7 @@ public class NPC : MonoBehaviour
 
     public void zeroText()
     {
+        
         dialogueText.text = "";
         index = 0;
         dialoguePanel.SetActive(false);

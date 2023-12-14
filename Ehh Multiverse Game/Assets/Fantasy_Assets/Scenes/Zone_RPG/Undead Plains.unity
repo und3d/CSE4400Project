@@ -6896,7 +6896,7 @@ GameObject:
   - component: {fileID: 1113043966}
   - component: {fileID: 1113043967}
   m_Layer: 0
-  m_Name: Purple Portal Sprite Sheet_3
+  m_Name: portal_4
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -6911,8 +6911,8 @@ Transform:
   m_GameObject: {fileID: 1113043965}
   serializedVersion: 2
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: -0.11, y: 0.19, z: -0.058643468}
-  m_LocalScale: {x: 1, y: 3.6, z: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1.4, y: 1.4, z: 0}
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 1599885866}
@@ -6958,7 +6958,7 @@ SpriteRenderer:
   m_SortingLayerID: -611315023
   m_SortingLayer: 2
   m_SortingOrder: 0
-  m_Sprite: {fileID: -1731158583, guid: ca0047b2ebcd51a4eac8c16440ecfc74, type: 3}
+  m_Sprite: {fileID: 21300000, guid: 804addae8911e7b4a83357287547cd5a, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
   m_FlipY: 0
@@ -7529,7 +7529,7 @@ PrefabInstance:
     m_Modifications:
     - target: {fileID: 1359008480100581448, guid: 83436c673a7180944be7caacc6138fa2, type: 3}
       propertyPath: m_LocalPosition.x
-      value: 13.85
+      value: 13.48
       objectReference: {fileID: 0}
     - target: {fileID: 1359008480100581448, guid: 83436c673a7180944be7caacc6138fa2, type: 3}
       propertyPath: m_LocalPosition.y

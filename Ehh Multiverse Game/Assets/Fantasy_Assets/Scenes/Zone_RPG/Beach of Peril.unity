@@ -344,7 +344,7 @@ GameObject:
   - component: {fileID: 546196636}
   - component: {fileID: 546196637}
   m_Layer: 0
-  m_Name: Purple Portal Sprite Sheet_4
+  m_Name: portal_4
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -359,8 +359,8 @@ Transform:
   m_GameObject: {fileID: 546196635}
   serializedVersion: 2
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 0.26, y: -0.01, z: -0.058643468}
-  m_LocalScale: {x: 1, y: 2.7875, z: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1.4, y: 1.4, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 614317310}
@@ -406,7 +406,7 @@ SpriteRenderer:
   m_SortingLayerID: -611315023
   m_SortingLayer: 2
   m_SortingOrder: 0
-  m_Sprite: {fileID: -1836315431, guid: ca0047b2ebcd51a4eac8c16440ecfc74, type: 3}
+  m_Sprite: {fileID: 21300000, guid: 804addae8911e7b4a83357287547cd5a, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
   m_FlipY: 0
@@ -427,11 +427,11 @@ PrefabInstance:
     m_Modifications:
     - target: {fileID: 1359008480100581448, guid: 83436c673a7180944be7caacc6138fa2, type: 3}
       propertyPath: m_LocalPosition.x
-      value: -9.02
+      value: -8.51
       objectReference: {fileID: 0}
     - target: {fileID: 1359008480100581448, guid: 83436c673a7180944be7caacc6138fa2, type: 3}
       propertyPath: m_LocalPosition.y
-      value: 3.56
+      value: 4.51
       objectReference: {fileID: 0}
     - target: {fileID: 1359008480100581448, guid: 83436c673a7180944be7caacc6138fa2, type: 3}
       propertyPath: m_LocalPosition.z
@@ -3276,7 +3276,7 @@ GameObject:
   - component: {fileID: 1116367035}
   - component: {fileID: 1116367036}
   m_Layer: 0
-  m_Name: Purple Portal Sprite Sheet_3
+  m_Name: portal_4
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -3291,8 +3291,8 @@ Transform:
   m_GameObject: {fileID: 1116367034}
   serializedVersion: 2
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: -0.32, y: -0.05, z: -0.058643468}
-  m_LocalScale: {x: 1, y: 2.725, z: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1.4, y: 1.4, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 5981788474279130855}
@@ -3338,7 +3338,7 @@ SpriteRenderer:
   m_SortingLayerID: -611315023
   m_SortingLayer: 2
   m_SortingOrder: 0
-  m_Sprite: {fileID: -1731158583, guid: ca0047b2ebcd51a4eac8c16440ecfc74, type: 3}
+  m_Sprite: {fileID: 21300000, guid: 804addae8911e7b4a83357287547cd5a, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
   m_FlipY: 0
@@ -4029,11 +4029,11 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 7237583505290631569, guid: 505a384362323cd49b9da3be9114b6cd, type: 3}
       propertyPath: m_LocalPosition.x
-      value: 9.1
+      value: 8.46
       objectReference: {fileID: 0}
     - target: {fileID: 7237583505290631569, guid: 505a384362323cd49b9da3be9114b6cd, type: 3}
       propertyPath: m_LocalPosition.y
-      value: 0.56
+      value: 4.49
       objectReference: {fileID: 0}
     - target: {fileID: 7237583505290631569, guid: 505a384362323cd49b9da3be9114b6cd, type: 3}
       propertyPath: m_LocalPosition.z
