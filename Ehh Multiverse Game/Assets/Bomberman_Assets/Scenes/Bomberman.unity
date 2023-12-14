@@ -340,6 +340,10 @@ PrefabInstance:
       value: 104
       objectReference: {fileID: 0}
     - target: {fileID: 5879614341149993122, guid: 6bdbecbdf34cd67488978d9895d00820, type: 3}
+      propertyPath: gameManager
+      value: 
+      objectReference: {fileID: 209817203}
+    - target: {fileID: 5879614341149993122, guid: 6bdbecbdf34cd67488978d9895d00820, type: 3}
       propertyPath: isAIControlled
       value: 1
       objectReference: {fileID: 0}
@@ -607,6 +611,10 @@ PrefabInstance:
       propertyPath: inputRight
       value: 275
       objectReference: {fileID: 0}
+    - target: {fileID: 5879614341149993122, guid: 6bdbecbdf34cd67488978d9895d00820, type: 3}
+      propertyPath: gameManager
+      value: 
+      objectReference: {fileID: 209817203}
     - target: {fileID: 5879614341149993122, guid: 6bdbecbdf34cd67488978d9895d00820, type: 3}
       propertyPath: isAIControlled
       value: 1
@@ -910,6 +918,10 @@ PrefabInstance:
       value: 275
       objectReference: {fileID: 0}
     - target: {fileID: 5879614341149993122, guid: 6bdbecbdf34cd67488978d9895d00820, type: 3}
+      propertyPath: gameManager
+      value: 
+      objectReference: {fileID: 209817203}
+    - target: {fileID: 5879614341149993122, guid: 6bdbecbdf34cd67488978d9895d00820, type: 3}
       propertyPath: isAIControlled
       value: 1
       objectReference: {fileID: 0}
@@ -1195,6 +1207,10 @@ PrefabInstance:
       value: 275
       objectReference: {fileID: 0}
     - target: {fileID: 5879614341149993122, guid: 6bdbecbdf34cd67488978d9895d00820, type: 3}
+      propertyPath: gameManager
+      value: 
+      objectReference: {fileID: 209817203}
+    - target: {fileID: 5879614341149993122, guid: 6bdbecbdf34cd67488978d9895d00820, type: 3}
       propertyPath: isAIControlled
       value: 1
       objectReference: {fileID: 0}
@@ -1462,6 +1478,10 @@ PrefabInstance:
       propertyPath: inputRight
       value: 104
       objectReference: {fileID: 0}
+    - target: {fileID: 5879614341149993122, guid: 6bdbecbdf34cd67488978d9895d00820, type: 3}
+      propertyPath: gameManager
+      value: 
+      objectReference: {fileID: 209817203}
     - target: {fileID: 5879614341149993122, guid: 6bdbecbdf34cd67488978d9895d00820, type: 3}
       propertyPath: isAIControlled
       value: 1
@@ -1814,6 +1834,10 @@ PrefabInstance:
       value: 104
       objectReference: {fileID: 0}
     - target: {fileID: 5879614341149993122, guid: 6bdbecbdf34cd67488978d9895d00820, type: 3}
+      propertyPath: gameManager
+      value: 
+      objectReference: {fileID: 209817203}
+    - target: {fileID: 5879614341149993122, guid: 6bdbecbdf34cd67488978d9895d00820, type: 3}
       propertyPath: isAIControlled
       value: 1
       objectReference: {fileID: 0}
@@ -2098,6 +2122,10 @@ PrefabInstance:
       propertyPath: inputRight
       value: 104
       objectReference: {fileID: 0}
+    - target: {fileID: 5879614341149993122, guid: 6bdbecbdf34cd67488978d9895d00820, type: 3}
+      propertyPath: gameManager
+      value: 
+      objectReference: {fileID: 209817203}
     - target: {fileID: 5879614341149993122, guid: 6bdbecbdf34cd67488978d9895d00820, type: 3}
       propertyPath: isAIControlled
       value: 1
@@ -2580,6 +2608,10 @@ PrefabInstance:
       value: 108
       objectReference: {fileID: 0}
     - target: {fileID: 5879614341149993122, guid: 6bdbecbdf34cd67488978d9895d00820, type: 3}
+      propertyPath: gameManager
+      value: 
+      objectReference: {fileID: 209817203}
+    - target: {fileID: 5879614341149993122, guid: 6bdbecbdf34cd67488978d9895d00820, type: 3}
       propertyPath: isAIControlled
       value: 1
       objectReference: {fileID: 0}
@@ -2882,6 +2914,10 @@ PrefabInstance:
       value: 108
       objectReference: {fileID: 0}
     - target: {fileID: 5879614341149993122, guid: 6bdbecbdf34cd67488978d9895d00820, type: 3}
+      propertyPath: gameManager
+      value: 
+      objectReference: {fileID: 209817203}
+    - target: {fileID: 5879614341149993122, guid: 6bdbecbdf34cd67488978d9895d00820, type: 3}
       propertyPath: isAIControlled
       value: 1
       objectReference: {fileID: 0}
@@ -3150,6 +3186,10 @@ PrefabInstance:
       value: 275
       objectReference: {fileID: 0}
     - target: {fileID: 5879614341149993122, guid: 6bdbecbdf34cd67488978d9895d00820, type: 3}
+      propertyPath: gameManager
+      value: 
+      objectReference: {fileID: 209817203}
+    - target: {fileID: 5879614341149993122, guid: 6bdbecbdf34cd67488978d9895d00820, type: 3}
       propertyPath: isAIControlled
       value: 1
       objectReference: {fileID: 0}
@@ -3417,6 +3457,10 @@ PrefabInstance:
       propertyPath: inputRight
       value: 108
       objectReference: {fileID: 0}
+    - target: {fileID: 5879614341149993122, guid: 6bdbecbdf34cd67488978d9895d00820, type: 3}
+      propertyPath: gameManager
+      value: 
+      objectReference: {fileID: 209817203}
     - target: {fileID: 5879614341149993122, guid: 6bdbecbdf34cd67488978d9895d00820, type: 3}
       propertyPath: isAIControlled
       value: 1
@@ -3695,6 +3739,10 @@ PrefabInstance:
       propertyPath: inputRight
       value: 108
       objectReference: {fileID: 0}
+    - target: {fileID: 5879614341149993122, guid: 6bdbecbdf34cd67488978d9895d00820, type: 3}
+      propertyPath: gameManager
+      value: 
+      objectReference: {fileID: 209817203}
     - target: {fileID: 5879614341149993122, guid: 6bdbecbdf34cd67488978d9895d00820, type: 3}
       propertyPath: isAIControlled
       value: 1
@@ -7246,6 +7294,10 @@ PrefabInstance:
       value: 104
       objectReference: {fileID: 0}
     - target: {fileID: 5879614341149993122, guid: 6bdbecbdf34cd67488978d9895d00820, type: 3}
+      propertyPath: gameManager
+      value: 
+      objectReference: {fileID: 209817203}
+    - target: {fileID: 5879614341149993122, guid: 6bdbecbdf34cd67488978d9895d00820, type: 3}
       propertyPath: isAIControlled
       value: 1
       objectReference: {fileID: 0}
@@ -7560,6 +7612,10 @@ PrefabInstance:
       value: 104
       objectReference: {fileID: 0}
     - target: {fileID: 5879614341149993122, guid: 6bdbecbdf34cd67488978d9895d00820, type: 3}
+      propertyPath: gameManager
+      value: 
+      objectReference: {fileID: 209817203}
+    - target: {fileID: 5879614341149993122, guid: 6bdbecbdf34cd67488978d9895d00820, type: 3}
       propertyPath: isAIControlled
       value: 1
       objectReference: {fileID: 0}
@@ -7725,6 +7781,10 @@ PrefabInstance:
       propertyPath: destructibleTiles
       value: 
       objectReference: {fileID: 1169247074}
+    - target: {fileID: 5879614341149993122, guid: 6bdbecbdf34cd67488978d9895d00820, type: 3}
+      propertyPath: gameManager
+      value: 
+      objectReference: {fileID: 209817203}
     - target: {fileID: 5879614341149993150, guid: 6bdbecbdf34cd67488978d9895d00820, type: 3}
       propertyPath: m_Name
       value: Player 1
@@ -7954,6 +8014,10 @@ PrefabInstance:
       propertyPath: inputRight
       value: 108
       objectReference: {fileID: 0}
+    - target: {fileID: 5879614341149993122, guid: 6bdbecbdf34cd67488978d9895d00820, type: 3}
+      propertyPath: gameManager
+      value: 
+      objectReference: {fileID: 209817203}
     - target: {fileID: 5879614341149993122, guid: 6bdbecbdf34cd67488978d9895d00820, type: 3}
       propertyPath: isAIControlled
       value: 1
@@ -8223,6 +8287,10 @@ PrefabInstance:
       value: 275
       objectReference: {fileID: 0}
     - target: {fileID: 5879614341149993122, guid: 6bdbecbdf34cd67488978d9895d00820, type: 3}
+      propertyPath: gameManager
+      value: 
+      objectReference: {fileID: 209817203}
+    - target: {fileID: 5879614341149993122, guid: 6bdbecbdf34cd67488978d9895d00820, type: 3}
       propertyPath: isAIControlled
       value: 1
       objectReference: {fileID: 0}
@@ -8490,6 +8558,10 @@ PrefabInstance:
       propertyPath: inputRight
       value: 108
       objectReference: {fileID: 0}
+    - target: {fileID: 5879614341149993122, guid: 6bdbecbdf34cd67488978d9895d00820, type: 3}
+      propertyPath: gameManager
+      value: 
+      objectReference: {fileID: 209817203}
     - target: {fileID: 5879614341149993122, guid: 6bdbecbdf34cd67488978d9895d00820, type: 3}
       propertyPath: isAIControlled
       value: 1
@@ -8809,6 +8881,10 @@ PrefabInstance:
       propertyPath: inputRight
       value: 104
       objectReference: {fileID: 0}
+    - target: {fileID: 5879614341149993122, guid: 6bdbecbdf34cd67488978d9895d00820, type: 3}
+      propertyPath: gameManager
+      value: 
+      objectReference: {fileID: 209817203}
     - target: {fileID: 5879614341149993122, guid: 6bdbecbdf34cd67488978d9895d00820, type: 3}
       propertyPath: isAIControlled
       value: 1
@@ -27121,6 +27197,10 @@ PrefabInstance:
       value: 108
       objectReference: {fileID: 0}
     - target: {fileID: 5879614341149993122, guid: 6bdbecbdf34cd67488978d9895d00820, type: 3}
+      propertyPath: gameManager
+      value: 
+      objectReference: {fileID: 209817203}
+    - target: {fileID: 5879614341149993122, guid: 6bdbecbdf34cd67488978d9895d00820, type: 3}
       propertyPath: isAIControlled
       value: 1
       objectReference: {fileID: 0}
@@ -27388,6 +27468,10 @@ PrefabInstance:
       propertyPath: inputRight
       value: 108
       objectReference: {fileID: 0}
+    - target: {fileID: 5879614341149993122, guid: 6bdbecbdf34cd67488978d9895d00820, type: 3}
+      propertyPath: gameManager
+      value: 
+      objectReference: {fileID: 209817203}
     - target: {fileID: 5879614341149993122, guid: 6bdbecbdf34cd67488978d9895d00820, type: 3}
       propertyPath: isAIControlled
       value: 1
@@ -27657,6 +27741,10 @@ PrefabInstance:
       value: 275
       objectReference: {fileID: 0}
     - target: {fileID: 5879614341149993122, guid: 6bdbecbdf34cd67488978d9895d00820, type: 3}
+      propertyPath: gameManager
+      value: 
+      objectReference: {fileID: 209817203}
+    - target: {fileID: 5879614341149993122, guid: 6bdbecbdf34cd67488978d9895d00820, type: 3}
       propertyPath: isAIControlled
       value: 1
       objectReference: {fileID: 0}
@@ -27924,6 +28012,10 @@ PrefabInstance:
       propertyPath: inputRight
       value: 275
       objectReference: {fileID: 0}
+    - target: {fileID: 5879614341149993122, guid: 6bdbecbdf34cd67488978d9895d00820, type: 3}
+      propertyPath: gameManager
+      value: 
+      objectReference: {fileID: 209817203}
     - target: {fileID: 5879614341149993122, guid: 6bdbecbdf34cd67488978d9895d00820, type: 3}
       propertyPath: isAIControlled
       value: 1
@@ -28210,6 +28302,10 @@ PrefabInstance:
       value: 275
       objectReference: {fileID: 0}
     - target: {fileID: 5879614341149993122, guid: 6bdbecbdf34cd67488978d9895d00820, type: 3}
+      propertyPath: gameManager
+      value: 
+      objectReference: {fileID: 209817203}
+    - target: {fileID: 5879614341149993122, guid: 6bdbecbdf34cd67488978d9895d00820, type: 3}
       propertyPath: isAIControlled
       value: 1
       objectReference: {fileID: 0}
@@ -28494,6 +28590,10 @@ PrefabInstance:
       propertyPath: inputRight
       value: 108
       objectReference: {fileID: 0}
+    - target: {fileID: 5879614341149993122, guid: 6bdbecbdf34cd67488978d9895d00820, type: 3}
+      propertyPath: gameManager
+      value: 
+      objectReference: {fileID: 209817203}
     - target: {fileID: 5879614341149993122, guid: 6bdbecbdf34cd67488978d9895d00820, type: 3}
       propertyPath: isAIControlled
       value: 1
@@ -28797,6 +28897,10 @@ PrefabInstance:
       value: 275
       objectReference: {fileID: 0}
     - target: {fileID: 5879614341149993122, guid: 6bdbecbdf34cd67488978d9895d00820, type: 3}
+      propertyPath: gameManager
+      value: 
+      objectReference: {fileID: 209817203}
+    - target: {fileID: 5879614341149993122, guid: 6bdbecbdf34cd67488978d9895d00820, type: 3}
       propertyPath: isAIControlled
       value: 1
       objectReference: {fileID: 0}
@@ -29065,6 +29169,10 @@ PrefabInstance:
       value: 108
       objectReference: {fileID: 0}
     - target: {fileID: 5879614341149993122, guid: 6bdbecbdf34cd67488978d9895d00820, type: 3}
+      propertyPath: gameManager
+      value: 
+      objectReference: {fileID: 209817203}
+    - target: {fileID: 5879614341149993122, guid: 6bdbecbdf34cd67488978d9895d00820, type: 3}
       propertyPath: isAIControlled
       value: 1
       objectReference: {fileID: 0}
@@ -29332,6 +29440,10 @@ PrefabInstance:
       propertyPath: inputRight
       value: 275
       objectReference: {fileID: 0}
+    - target: {fileID: 5879614341149993122, guid: 6bdbecbdf34cd67488978d9895d00820, type: 3}
+      propertyPath: gameManager
+      value: 
+      objectReference: {fileID: 209817203}
     - target: {fileID: 5879614341149993122, guid: 6bdbecbdf34cd67488978d9895d00820, type: 3}
       propertyPath: isAIControlled
       value: 1
@@ -29618,6 +29730,10 @@ PrefabInstance:
       value: 104
       objectReference: {fileID: 0}
     - target: {fileID: 5879614341149993122, guid: 6bdbecbdf34cd67488978d9895d00820, type: 3}
+      propertyPath: gameManager
+      value: 
+      objectReference: {fileID: 209817203}
+    - target: {fileID: 5879614341149993122, guid: 6bdbecbdf34cd67488978d9895d00820, type: 3}
       propertyPath: isAIControlled
       value: 1
       objectReference: {fileID: 0}
@@ -29886,6 +30002,10 @@ PrefabInstance:
       value: 104
       objectReference: {fileID: 0}
     - target: {fileID: 5879614341149993122, guid: 6bdbecbdf34cd67488978d9895d00820, type: 3}
+      propertyPath: gameManager
+      value: 
+      objectReference: {fileID: 209817203}
+    - target: {fileID: 5879614341149993122, guid: 6bdbecbdf34cd67488978d9895d00820, type: 3}
       propertyPath: isAIControlled
       value: 1
       objectReference: {fileID: 0}
@@ -30153,6 +30273,10 @@ PrefabInstance:
       propertyPath: inputRight
       value: 104
       objectReference: {fileID: 0}
+    - target: {fileID: 5879614341149993122, guid: 6bdbecbdf34cd67488978d9895d00820, type: 3}
+      propertyPath: gameManager
+      value: 
+      objectReference: {fileID: 209817203}
     - target: {fileID: 5879614341149993122, guid: 6bdbecbdf34cd67488978d9895d00820, type: 3}
       propertyPath: isAIControlled
       value: 1

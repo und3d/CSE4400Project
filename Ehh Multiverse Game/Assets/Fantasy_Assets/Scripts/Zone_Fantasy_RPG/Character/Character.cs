@@ -37,7 +37,15 @@ public abstract class Character : MonoBehaviour, IDamagable
 
     public virtual void Die()
     {
-
+        if (PersistentController.Instance.RPGLives > 1)
+        {
+            PersistentController.Instance.RPGLives -= 1;
+            UnityEngine.SceneManagement.SceneManager.LoadScene("Home Map");
+        }
+        else
+        {
+            UnityEngine.SceneManagement.SceneManager.LoadScene("Zone_0");
+        }
     }
 
     public Team GetTeam()

@@ -97,4 +97,18 @@ public class PlayerController : MonoBehaviour
     {
         canMove = true;
     }
+
+    void AllLivesLost()
+    {
+        UnityEngine.SceneManagement.SceneManager.LoadScene("Zone_0");
+        if (PersistentController.Instance.GlobalLives > 1)
+        {
+            PersistentController.Instance.GlobalLives -= 1;
+        }
+        else
+        {
+            UnityEngine.SceneManagement.SceneManager.LoadScene("MainMenu");
+            PersistentController.Instance.GlobalLives = 3;
+        }
+    }
 }

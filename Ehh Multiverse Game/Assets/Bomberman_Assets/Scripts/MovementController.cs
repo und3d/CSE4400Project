@@ -4,6 +4,7 @@ using UnityEngine;
 public class MovementController : MonoBehaviour
 {
     private Rigidbody2D rb;
+    public GameManager gameManager;
     private Vector2 direction = Vector2.down;
     public float speed = 5f;
     public bool isAIControlled = false;
@@ -102,7 +103,7 @@ public class MovementController : MonoBehaviour
     private void OnDeathSequenceEnded()
     {
         gameObject.SetActive(false);
-        GameManager.Instance.CheckWinState();
+        gameManager.CheckWinState();
     }
 
     public void StopMovement()

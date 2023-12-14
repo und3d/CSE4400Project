@@ -3,19 +3,7 @@ using UnityEngine.SceneManagement;
 
 public class GameManager : MonoBehaviour
 {
-    public static GameManager Instance { get; private set; }
-
     public GameObject[] players;
-
-    private void Awake()
-    {
-        if (Instance != null) {
-            DestroyImmediate(gameObject);
-        } else {
-            Instance = this;
-            DontDestroyOnLoad(gameObject);
-        }
-    }
 
     public void CheckWinState()
     {
@@ -38,19 +26,33 @@ public class GameManager : MonoBehaviour
         if (alivePlayers == 1 && aliveAI == 0)
         {
             // Player wins
-            SceneManager.LoadScene("Zone_0");
+            Invoke(nameof(WinState), 3f);
+            
         }
         else if (alivePlayers == 0 && aliveAI > 0)
         {
             // AI wins
-            Invoke(nameof(NewRound), 3f);
+            Invoke(nameof(GameOver), 3f);
         }
     }
 
 
-    private void NewRound()
+    private void GameOver()
     {
-        SceneManager.LoadScene("Bomberman");
+        if (PersistentController.Instance.BombermanLives > 1)
+        {
+            PersistentController.Instance.BombermanLives -= 1;
+            SceneManager.LoadScene("Bomberman");
+        }
+        else
+        {
+            SceneManager.LoadScene("Zone_0");
+        }
+    }
+
+    private void WinState()
+    {
+        SceneManager.LoadScene("Zone_0");
     }
 
 }
