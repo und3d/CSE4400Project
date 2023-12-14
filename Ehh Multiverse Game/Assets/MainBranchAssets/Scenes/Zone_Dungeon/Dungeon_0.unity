@@ -99873,9 +99873,9 @@ PrefabInstance:
       propertyPath: m_TagString
       value: Player
       objectReference: {fileID: 0}
-    - target: {fileID: 8596936979833901644, guid: 94efa9540baf5f24b895b9fc27f51c8f, type: 3}
-      propertyPath: knockbackForce
-      value: 15
+    - target: {fileID: 5906608907149213824, guid: 94efa9540baf5f24b895b9fc27f51c8f, type: 3}
+      propertyPath: m_Enabled
+      value: 0
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []

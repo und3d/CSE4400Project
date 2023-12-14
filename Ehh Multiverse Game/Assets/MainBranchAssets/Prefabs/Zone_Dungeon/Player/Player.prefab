@@ -329,7 +329,7 @@ BoxCollider2D:
   m_IsTrigger: 1
   m_UsedByEffector: 0
   m_UsedByComposite: 0
-  m_Offset: {x: -0.083474636, y: -0.033535004}
+  m_Offset: {x: -0.06532377, y: -0.044704765}
   m_SpriteTilingProperty:
     border: {x: 0, y: 0, z: 0, w: 0}
     pivot: {x: 0, y: 0}
@@ -340,7 +340,7 @@ BoxCollider2D:
     adaptiveTiling: 0
   m_AutoTiling: 0
   serializedVersion: 2
-  m_Size: {x: 0.25050306, y: 0.58452237}
+  m_Size: {x: 0.20023909, y: 0.3304101}
   m_EdgeRadius: 0
 --- !u!114 &8596936979833901644
 MonoBehaviour:
@@ -356,6 +356,6 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   swordCollider: {fileID: 5906608907149213824}
   swordDamage: 1
-  knockbackForce: 500
-  faceRight: {x: 0.4, y: 0.05, z: 0}
-  faceLeft: {x: -0.4, y: 0.05, z: 0}
+  knockbackForce: 15
+  faceRight: {x: 0.237, y: 0.05, z: 0}
+  faceLeft: {x: -0.237, y: 0.05, z: 0}

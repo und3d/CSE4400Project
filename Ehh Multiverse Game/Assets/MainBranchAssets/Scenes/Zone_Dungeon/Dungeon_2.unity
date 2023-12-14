@@ -101470,10 +101470,6 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 0}
     m_Modifications:
-    - target: {fileID: 291251319621482905, guid: 94efa9540baf5f24b895b9fc27f51c8f, type: 3}
-      propertyPath: m_FlipX
-      value: 0
-      objectReference: {fileID: 0}
     - target: {fileID: 1160798014538889426, guid: 94efa9540baf5f24b895b9fc27f51c8f, type: 3}
       propertyPath: m_LocalPosition.x
       value: 0
@@ -101514,10 +101510,6 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
-    - target: {fileID: 3031452516628131930, guid: 94efa9540baf5f24b895b9fc27f51c8f, type: 3}
-      propertyPath: m_Offset.y
-      value: -0.2
-      objectReference: {fileID: 0}
     - target: {fileID: 3601367496554081308, guid: 94efa9540baf5f24b895b9fc27f51c8f, type: 3}
       propertyPath: m_Name
       value: Player
@@ -101525,10 +101517,6 @@ PrefabInstance:
     - target: {fileID: 3601367496554081308, guid: 94efa9540baf5f24b895b9fc27f51c8f, type: 3}
       propertyPath: m_TagString
       value: Player
-      objectReference: {fileID: 0}
-    - target: {fileID: 8596936979833901644, guid: 94efa9540baf5f24b895b9fc27f51c8f, type: 3}
-      propertyPath: knockbackForce
-      value: 15
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []

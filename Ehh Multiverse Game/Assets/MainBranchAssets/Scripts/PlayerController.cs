@@ -62,12 +62,18 @@ public class PlayerController : MonoBehaviour
             if(moveInput.x > 0)
             {
                 spriteRenderer.flipX = false;
-                gameObject.BroadcastMessage("IsFacingRight", true);
+                if (swordHitbox != null)
+                {
+                    gameObject.BroadcastMessage("IsFacingRight", true);
+                }
             }
             else if (moveInput.x < 0)
             {
                 spriteRenderer.flipX = true;
-                gameObject.BroadcastMessage("IsFacingRight", false);
+                if (swordHitbox != null)
+                {
+                    gameObject.BroadcastMessage("IsFacingRight", false);
+                }
             }
 
             IsMoving = true;
@@ -85,7 +91,16 @@ public class PlayerController : MonoBehaviour
 
     void OnFire()
     {
-        animator.SetTrigger("swordAttack");
+        if (swordHitbox != null)
+        {
+            animator.SetTrigger("swordAttack");
+        }
+    }
+
+    void OnNextScene()
+    {
+        int index = UnityEngine.SceneManagement.SceneManager.GetActiveScene().buildIndex;
+        UnityEngine.SceneManagement.SceneManager.LoadScene(index + 1);
     }
 
     void LockMovement()
