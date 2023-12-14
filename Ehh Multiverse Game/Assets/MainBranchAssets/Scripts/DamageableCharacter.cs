@@ -90,49 +90,18 @@ public class DamageableCharacter : MonoBehaviour, IDamageable
         rb = GetComponent<Rigidbody2D>();
         physicsCollider = GetComponent<Collider2D>();
         animator.SetBool("isAlive", true);
-        if (gameObject.tag == "Player")
-        {
-            Health = PersistentController.Instance.DungeonLives;
-        }
     }
 
     public void OnHit(float damage)
     {
         if (!Invincible)
         {
-            if (gameObject.tag == "Player")
+            Debug.Log("Character hit for " + damage);
+            Health -= damage;
+
+            if (CanTurnInvincible)
             {
-                Debug.Log("Character hit for " + damage);
-
-                PersistentController.Instance.DungeonLives -= 1;
-
-                animator.SetTrigger("hit");
-                RectTransform textTransform = Instantiate(healthText).GetComponent<RectTransform>();
-                textTransform.transform.position = Camera.main.WorldToScreenPoint(gameObject.transform.position);
-
-                Canvas canvas = GameObject.FindObjectOfType<Canvas>();
-                textTransform.SetParent(canvas.transform);
-
-                if (PersistentController.Instance.DungeonLives <= 0)
-                {
-                    animator.SetBool("isAlive", false);
-                    Targetable = false;
-                }
-
-                if (CanTurnInvincible)
-                {
-                    Invincible = true;
-                }
-            }
-            else
-            {
-                Debug.Log("Character hit for " + damage);
-                Health -= damage;
-
-                if (CanTurnInvincible)
-                {
-                    Invincible = true;
-                }
+                Invincible = true;
             }
         }
     }
@@ -141,44 +110,14 @@ public class DamageableCharacter : MonoBehaviour, IDamageable
     {
         if (!Invincible)
         {
-            if (gameObject.tag == "Player")
+            Debug.Log("Character hit for " + damage);
+            Health -= damage;
+
+            rb.AddForce(knockback, ForceMode2D.Impulse);
+
+            if (CanTurnInvincible)
             {
-                Debug.Log("Character hit for " + damage);
-
-                PersistentController.Instance.DungeonLives -= 1;
-
-                animator.SetTrigger("hit");
-                RectTransform textTransform = Instantiate(healthText).GetComponent<RectTransform>();
-                textTransform.transform.position = Camera.main.WorldToScreenPoint(gameObject.transform.position);
-
-                Canvas canvas = GameObject.FindObjectOfType<Canvas>();
-                textTransform.SetParent(canvas.transform);
-
-                if (PersistentController.Instance.DungeonLives <= 0)
-                {
-                    animator.SetBool("isAlive", false);
-                    Targetable = false;
-                }
-
-                rb.AddForce(knockback, ForceMode2D.Impulse);
-
-                if (CanTurnInvincible)
-                {
-                    Invincible = true;
-                }
-            }
-
-            else
-            {
-                Debug.Log("Character hit for " + damage);
-                Health -= damage;
-
-                rb.AddForce(knockback, ForceMode2D.Impulse);
-
-                if (CanTurnInvincible)
-                {
-                    Invincible = true;
-                }
+                Invincible = true;
             }
         }
     }
