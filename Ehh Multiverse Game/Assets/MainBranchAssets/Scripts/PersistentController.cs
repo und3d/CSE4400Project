@@ -14,6 +14,8 @@ public class PersistentController : MonoBehaviour
 
     public AudioClip DungeonMusic;
     public AudioClip BombermanMusic;
+    public AudioClip MenuMusic;
+    public AudioClip Zone0Music;
 
     private void Awake()
     {
@@ -31,5 +33,7 @@ public class PersistentController : MonoBehaviour
     private void Start()
     {
         SceneManager.LoadScene("MainMenu");
+        GetComponent<AudioSource>().clip = MenuMusic;
+        GetComponent<AudioSource>().Play();
     }
 }

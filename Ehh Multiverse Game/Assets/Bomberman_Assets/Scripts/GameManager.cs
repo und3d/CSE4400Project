@@ -46,8 +46,22 @@ public class GameManager : MonoBehaviour
         }
         else
         {
-            PersistentController.Instance.GetComponent<AudioSource>().Stop();
-            SceneManager.LoadScene("Zone_0");
+            UnityEngine.SceneManagement.SceneManager.LoadScene("Zone_0");
+            if (PersistentController.Instance.GlobalLives > 1)
+            {
+                PersistentController.Instance.GetComponent<AudioSource>().Stop();
+                PersistentController.Instance.GetComponent<AudioSource>().clip = PersistentController.Instance.Zone0Music;
+                PersistentController.Instance.GetComponent<AudioSource>().Play();
+                PersistentController.Instance.GlobalLives -= 1;
+            }
+            else
+            {
+                UnityEngine.SceneManagement.SceneManager.LoadScene("MainMenu");
+                PersistentController.Instance.GlobalLives = 3;
+                PersistentController.Instance.GetComponent<AudioSource>().Stop();
+                PersistentController.Instance.GetComponent<AudioSource>().clip = PersistentController.Instance.MenuMusic;
+                PersistentController.Instance.GetComponent<AudioSource>().Play();
+            }
         }
     }
 

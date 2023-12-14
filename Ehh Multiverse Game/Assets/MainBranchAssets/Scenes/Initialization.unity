@@ -174,6 +174,8 @@ MonoBehaviour:
   DungeonLives: 3
   DungeonMusic: {fileID: 8300000, guid: 546c10da643624342b399b4f0c65ff23, type: 3}
   BombermanMusic: {fileID: 8300000, guid: 47cc284fb6a1a2647a5e143496eab888, type: 3}
+  MenuMusic: {fileID: 8300000, guid: fa8cddd96a41d4d4a890c2cc6b9d36c5, type: 3}
+  Zone0Music: {fileID: 8300000, guid: ad6fc7f1e68192743bbcba54cbd032b0, type: 3}
 --- !u!82 &1938423064
 AudioSource:
   m_ObjectHideFlags: 0

@@ -18,6 +18,9 @@ public class BossDefeated : MonoBehaviour
         if (slime == null)
         {
             SceneManager.LoadScene("Zone_0");
+            PersistentController.Instance.GetComponent<AudioSource>().Stop();
+            PersistentController.Instance.GetComponent<AudioSource>().clip = PersistentController.Instance.Zone0Music;
+            PersistentController.Instance.GetComponent<AudioSource>().Play();
         }
     }
 }
