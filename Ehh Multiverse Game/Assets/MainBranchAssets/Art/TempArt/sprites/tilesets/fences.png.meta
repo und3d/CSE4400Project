@@ -1,5 +1,5 @@
 fileFormatVersion: 2
-guid: 6e2f99f2d99f79d4287ce240ccd11950
+guid: 2edf6bee78c88d944b80869a23b23ad6
 TextureImporter:
   internalIDToNameTable: []
   externalObjects: {}
@@ -34,7 +34,7 @@ TextureImporter:
   maxTextureSize: 2048
   textureSettings:
     serializedVersion: 2
-    filterMode: 0
+    filterMode: 1
     aniso: 1
     mipBias: 0
     wrapU: 1
@@ -72,7 +72,20 @@ TextureImporter:
     maxTextureSize: 2048
     resizeAlgorithm: 0
     textureFormat: -1
-    textureCompression: 0
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: WebGL
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
     compressionQuality: 50
     crunchedCompression: 0
     allowsAlphaSplitting: 0
@@ -82,32 +95,6 @@ TextureImporter:
     forceMaximumCompressionQuality_BC6H_BC7: 0
   - serializedVersion: 3
     buildTarget: Standalone
-    maxTextureSize: 2048
-    resizeAlgorithm: 0
-    textureFormat: -1
-    textureCompression: 1
-    compressionQuality: 50
-    crunchedCompression: 0
-    allowsAlphaSplitting: 0
-    overridden: 0
-    ignorePlatformSupport: 0
-    androidETC2FallbackOverride: 0
-    forceMaximumCompressionQuality_BC6H_BC7: 0
-  - serializedVersion: 3
-    buildTarget: iPhone
-    maxTextureSize: 2048
-    resizeAlgorithm: 0
-    textureFormat: -1
-    textureCompression: 1
-    compressionQuality: 50
-    crunchedCompression: 0
-    allowsAlphaSplitting: 0
-    overridden: 0
-    ignorePlatformSupport: 0
-    androidETC2FallbackOverride: 0
-    forceMaximumCompressionQuality_BC6H_BC7: 0
-  - serializedVersion: 3
-    buildTarget: Android
     maxTextureSize: 2048
     resizeAlgorithm: 0
     textureFormat: -1
@@ -136,13 +123,13 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: fences_0
+      name: Forest Cliff_0
       rect:
         serializedVersion: 2
         x: 0
-        y: 48
-        width: 16
-        height: 16
+        y: 170.66666
+        width: 48
+        height: 85.333336
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -150,62 +137,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 8d03949b801501a409fe0e2648347556
-      internalID: -368913500
+      spriteID: e6df8189b48aa3b4daa35aa446fb4b7a
+      internalID: -1886327456
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: fences_1
-      rect:
-        serializedVersion: 2
-        x: 16
-        y: 48
-        width: 16
-        height: 16
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: c0720cd6793a9c04593036991388461c
-      internalID: -1440773405
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: fences_2
-      rect:
-        serializedVersion: 2
-        x: 32
-        y: 48
-        width: 16
-        height: 16
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: ea27ba0752e0a9d488fd84ac43ad5458
-      internalID: -2042521753
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: fences_3
+      name: Forest Cliff_1
       rect:
         serializedVersion: 2
         x: 48
-        y: 48
-        width: 16
-        height: 16
+        y: 170.66666
+        width: 48
+        height: 85.333336
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -213,20 +158,62 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 8cf0b2f4d51ad7b429dd768948ceef04
-      internalID: 1172569219
+      spriteID: 1d397d1a7df6c064ca79c7f143071771
+      internalID: 1515332386
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: fences_4
+      name: Forest Cliff_2
+      rect:
+        serializedVersion: 2
+        x: 96
+        y: 170.66666
+        width: 48
+        height: 85.333336
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 499b317e57c39e44892f953bfce35179
+      internalID: 1293744302
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Forest Cliff_3
+      rect:
+        serializedVersion: 2
+        x: 144
+        y: 170.66666
+        width: 48
+        height: 85.333336
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1c330ca851622d34ba7a6ada517cfad0
+      internalID: -1388576478
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Forest Cliff_4
       rect:
         serializedVersion: 2
         x: 0
-        y: 32
-        width: 16
-        height: 16
+        y: 85.666664
+        width: 48
+        height: 85.333336
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -234,62 +221,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: f9707c553f41cfe46b2a7ca6ea90d4cb
-      internalID: 1049516528
+      spriteID: b5c157c0768189a4aa5758a7022fb98d
+      internalID: -724480982
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: fences_5
-      rect:
-        serializedVersion: 2
-        x: 16
-        y: 32
-        width: 16
-        height: 16
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 45d880f0d89affb42b2a6c4c62843f90
-      internalID: 1928407549
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: fences_6
-      rect:
-        serializedVersion: 2
-        x: 32
-        y: 32
-        width: 16
-        height: 16
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 8a6c6810144910d49a4d339bf8914ccc
-      internalID: 978801123
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: fences_7
+      name: Forest Cliff_5
       rect:
         serializedVersion: 2
         x: 48
-        y: 32
-        width: 16
-        height: 16
+        y: 85.666664
+        width: 48
+        height: 85.333336
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -297,20 +242,62 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: b7b59ac7eb30de34ea4e5eaa04d82f0a
-      internalID: -1949274105
+      spriteID: 28d1267572b61014390961763dc01dde
+      internalID: -958499631
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: fences_8
+      name: Forest Cliff_6
+      rect:
+        serializedVersion: 2
+        x: 96
+        y: 85.666664
+        width: 48
+        height: 85.333336
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 73ea4840951a7c546b22eff26785b3f0
+      internalID: 1426856410
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Forest Cliff_7
+      rect:
+        serializedVersion: 2
+        x: 144
+        y: 85.666664
+        width: 48
+        height: 85.333336
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cba5b851c44987a4296a720faca00c31
+      internalID: -794778144
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Forest Cliff_8
       rect:
         serializedVersion: 2
         x: 0
-        y: 16
-        width: 16
-        height: 16
+        y: 0.6666641
+        width: 48
+        height: 85.333336
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -318,62 +305,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: e6897c7c71cd0a042a1dc68f4b8ce3ed
-      internalID: 1872857815
+      spriteID: 29dd700f2626cf44d8b1f93a1d795039
+      internalID: 1308103408
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: fences_9
-      rect:
-        serializedVersion: 2
-        x: 16
-        y: 16
-        width: 16
-        height: 16
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 61d9126f2afa4704bba8aae8ad0d72b7
-      internalID: -955421039
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: fences_10
-      rect:
-        serializedVersion: 2
-        x: 32
-        y: 16
-        width: 16
-        height: 16
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: e49e968940cb427498e67168fe8e87d1
-      internalID: 1251780744
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: fences_11
+      name: Forest Cliff_9
       rect:
         serializedVersion: 2
         x: 48
-        y: 16
-        width: 16
-        height: 16
+        y: 0.6666641
+        width: 48
+        height: 85.333336
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -381,20 +326,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: f1fedbdfa4f33b2419ba9c41841c7ccb
-      internalID: 1137602508
+      spriteID: fc1310251ae72d842b743ce5c209e3da
+      internalID: -1405448508
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: fences_12
+      name: Forest Cliff_10
       rect:
         serializedVersion: 2
-        x: 0
-        y: 0
-        width: 16
-        height: 16
+        x: 96
+        y: 0.6666641
+        width: 48
+        height: 85.333336
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -402,20 +347,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 718c02378998e18408a8647166919e20
-      internalID: 396208205
+      spriteID: fe3a16bda8886674cbaaa5f1522f9b72
+      internalID: -667504720
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: fences_13
+      name: Forest Cliff_11
       rect:
         serializedVersion: 2
-        x: 16
-        y: 0
-        width: 16
-        height: 16
+        x: 144
+        y: 0.6666641
+        width: 48
+        height: 85.333336
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -423,50 +368,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: e7379314f28ec3d46992b261f1d5f3d3
-      internalID: -2030289960
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: fences_14
-      rect:
-        serializedVersion: 2
-        x: 32
-        y: 0
-        width: 16
-        height: 16
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 2888b8019fc1d9a4cae650171b5b285f
-      internalID: -1131812066
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: fences_15
-      rect:
-        serializedVersion: 2
-        x: 48
-        y: 0
-        width: 16
-        height: 16
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 8728b92b8c9ea6243abe73590f098c72
-      internalID: -573853721
+      spriteID: 8fd3b9fdf6dcb0f4c9ba71bca1d3ed33
+      internalID: 64196401
       vertices: []
       indices: 
       edges: []
@@ -482,22 +385,18 @@ TextureImporter:
     weights: []
     secondaryTextures: []
     nameFileIdTable:
-      fences_0: -368913500
-      fences_1: -1440773405
-      fences_10: 1251780744
-      fences_11: 1137602508
-      fences_12: 396208205
-      fences_13: -2030289960
-      fences_14: -1131812066
-      fences_15: -573853721
-      fences_2: -2042521753
-      fences_3: 1172569219
-      fences_4: 1049516528
-      fences_5: 1928407549
-      fences_6: 978801123
-      fences_7: -1949274105
-      fences_8: 1872857815
-      fences_9: -955421039
+      Forest Cliff_0: -1886327456
+      Forest Cliff_1: 1515332386
+      Forest Cliff_10: -667504720
+      Forest Cliff_11: 64196401
+      Forest Cliff_2: 1293744302
+      Forest Cliff_3: -1388576478
+      Forest Cliff_4: -724480982
+      Forest Cliff_5: -958499631
+      Forest Cliff_6: 1426856410
+      Forest Cliff_7: -794778144
+      Forest Cliff_8: 1308103408
+      Forest Cliff_9: -1405448508
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

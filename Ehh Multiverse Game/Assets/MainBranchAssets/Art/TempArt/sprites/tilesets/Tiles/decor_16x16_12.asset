@@ -10,9 +10,9 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 13312, guid: 0000000000000000e000000000000000, type: 0}
-  m_Name: decor_16x16_12
+  m_Name: Forest Cliff_1
   m_EditorClassIdentifier: 
-  m_Sprite: {fileID: -255116326, guid: 360aab6711953bb4d8b14af8e3307e63, type: 3}
+  m_Sprite: {fileID: 1515332386, guid: 2edf6bee78c88d944b80869a23b23ad6, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_Transform:
     e00: 1
