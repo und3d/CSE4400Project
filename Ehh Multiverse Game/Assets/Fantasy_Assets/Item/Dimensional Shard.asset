@@ -16,6 +16,6 @@ MonoBehaviour:
   Description: The goal for coming to this plane full of Gods and elves has finally
     been obtained. Better run away as fast as you can before they all start fighting
     you for it.
-  Icon: {fileID: 21300000, guid: accac6586678e24429e75a7a485a2801, type: 3}
+  Icon: {fileID: 21300000, guid: 8a4d2b15b1facff46a503f0be9afbe0c, type: 3}
   MaxStackSize: 1
   EquipPrefab: {fileID: 0}
