@@ -5,12 +5,15 @@ using UnityEngine.SceneManagement;
 
 public class SceneSwapCollider : MonoBehaviour
 {
-    public Object swapToScene;
+    public string swapToScene;
     // Start is called before the first frame update
 
     private void OnTriggerEnter2D(Collider2D collision)
     {
-        Debug.Log("Collision");
-        SceneManager.LoadScene(swapToScene.name);
+        if (collision.gameObject.tag == "Player")
+        {
+            Debug.Log("Collision");
+            SceneManager.LoadScene(swapToScene);
+        }
     }
 }

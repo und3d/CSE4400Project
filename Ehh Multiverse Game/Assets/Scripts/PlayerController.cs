@@ -7,62 +7,94 @@ using UnityEngine.InputSystem;
 //Takes and handles input movement for the player character
 public class PlayerController : MonoBehaviour
 {
-    public float moveSpeed = 1f;
+    public float moveSpeed = 700f;
     public ContactFilter2D movementFilter;
     public float collisionOffset = 0.05f;
+    public float moveDrag = 15f;
+    public float stopDrag = 25f;
+    public GameObject swordHitbox;
 
-    Vector2 movementInput;
+    Vector2 moveInput;
+    SpriteRenderer spriteRenderer;
     Rigidbody2D rb;
-    List<RaycastHit2D> castCollisions = new List<RaycastHit2D>();
+    Animator animator;
+    bool canMove = true;
+    bool isMoving = false;
+
+    public bool IsMoving
+    {
+        set
+        {
+            isMoving = value;
+            animator.SetBool("isMoving", value);
+
+            if (isMoving)
+            {
+                rb.drag = moveDrag;
+            }
+            else
+            {
+                rb.drag = stopDrag;
+            }
+        }
+    }
 
     // Start is called before the first frame update
     void Start()
     {
         rb = GetComponent<Rigidbody2D>();
+        animator = GetComponent<Animator>();
+        spriteRenderer = GetComponent<SpriteRenderer>();
     }
 
     // Update is called once per frame
     void FixedUpdate()
     {
-        //if movement input is not 0, try to move
-        if (movementInput != Vector2.zero)
+        if (canMove == true && moveInput != Vector2.zero)
         {
-            bool success = TryMove(movementInput);
+            // Move animation and add velocity
 
-            if(!success)    //If a collision is detected and movement input is still detected, allows movement along collision
+            // Accelerate the player while run direction is pressed (limited by rigidbody linear drag)
+
+            rb.AddForce(moveInput * moveSpeed * Time.fixedDeltaTime, ForceMode2D.Force);
+
+            // Control whether looking left or right
+            if(moveInput.x > 0)
             {
-                success = TryMove(new Vector2(movementInput.x, 0));
-
-                if (!success)
-                {
-                    success = TryMove(new Vector2(0, movementInput.y));
-                }
+                spriteRenderer.flipX = false;
+                gameObject.BroadcastMessage("IsFacingRight", true);
             }
-        }
-    }
+            else if (moveInput.x < 0)
+            {
+                spriteRenderer.flipX = true;
+                gameObject.BroadcastMessage("IsFacingRight", false);
+            }
 
-    private bool TryMove(Vector2 direction)
-    {
-        //Check for potential collisions
-        int count = rb.Cast(
-            direction,      // X and Y values between -1 and 1 that represent the direction from the body to look for collisions
-            movementFilter,     // The settings that determine where a collision can occur on such as layeers to collide with
-            castCollisions,     // List of collisions to store the found collisions into after the cast is finished
-            moveSpeed * Time.fixedDeltaTime + collisionOffset);     //The amount to cast equal to the movement plus an offset
-
-        if (count == 0)
-        {
-            rb.MovePosition(rb.position + direction * moveSpeed * Time.fixedDeltaTime);
-            return true;
+            IsMoving = true;
         }
         else
         {
-            return false;
+            IsMoving = false;
         }
     }
 
-    private void OnMove(InputValue movementValue)
+    private void OnMove(InputValue value)
     {
-        movementInput = movementValue.Get<Vector2>();
+        moveInput = value.Get<Vector2>();
+    }
+
+    void OnFire()
+    {
+        animator.SetTrigger("swordAttack");
+    }
+
+    void LockMovement()
+    {
+        canMove = false;
+    }
+
+    void UnlockMovement()
+    {
+        canMove = true;
     }
 }
