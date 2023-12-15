@@ -36,4 +36,15 @@ public class PersistentController : MonoBehaviour
         GetComponent<AudioSource>().clip = MenuMusic;
         GetComponent<AudioSource>().Play();
     }
+
+    private void Update()
+    {
+        if (Input.GetKeyDown(KeyCode.Escape))
+        {
+            SceneManager.LoadScene("MainMenu");
+            Instance.GetComponent<AudioSource>().Stop();
+            Instance.GetComponent<AudioSource>().clip = Instance.MenuMusic;
+            Instance.GetComponent<AudioSource>().Play();
+        }
+    }
 }
